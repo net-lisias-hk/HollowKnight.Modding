@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "mEFyVJS+RJYzRwszalQbRQ=="
+          "hash": "0LAgk/kYxGdT8RhXywPovQ=="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.AfterAttackHandler.html",
-          "hash": "107NVbaIhr/BE2rDhUoYLA=="
+          "hash": "JTZMsBdzW/DKK9W3jm3U6w=="
         }
       },
       "is_incremental": true,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.AfterClearSaveGameHandler.html",
-          "hash": "AYc2Lf+3yeOS+is1ZQWCNA=="
+          "hash": "vlyWd7xm6fJ5U3RPz+J4RQ=="
         }
       },
       "is_incremental": true,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.AfterSavegameLoadHandler.html",
-          "hash": "DfBcoFewrzEN11+8e7mC7g=="
+          "hash": "XSDJaHhh4VtSpBnQokY5xg=="
         }
       },
       "is_incremental": true,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.AfterTakeDamageHandler.html",
-          "hash": "2xaQsP0NzgspT0HeNBupnA=="
+          "hash": "OGVtNRoAkzgNMV84sn5qwA=="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ApplicationQuitHandler.html",
-          "hash": "vun56HuonAo718n5wW3Pfg=="
+          "hash": "ZMhAiKRxTe3mglhQigOtog=="
         }
       },
       "is_incremental": true,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.AttackHandler.html",
-          "hash": "X8BFkA8zagrFbYvOM43Uww=="
+          "hash": "rrxSl8u0KFWcS50SRsPTdw=="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.BeforeSavegameSaveHandler.html",
-          "hash": "Xfr7kr6/rfzj49urlL6jCA=="
+          "hash": "kplCHK9XbkCCNDeHPao9Vg=="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.BeforeSceneLoadHandler.html",
-          "hash": "8WgSZxQf6+Y1aYhIYjXkww=="
+          "hash": "1ReIoEBmJv6Zay0zlCEm0A=="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.BlueHealthHandler.html",
-          "hash": "hdwENxLeB8wArR8dRuslhQ=="
+          "hash": "ibl9WepLQczHqx6Z8ffUTg=="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.CharmUpdateHandler.html",
-          "hash": "RuW7E2PtBz/Ujo8QaclyJw=="
+          "hash": "gGJElAdManxSsthLBH53lg=="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ClearSaveGameHandler.html",
-          "hash": "FxPRvrikYBrFfEZKXmg3OQ=="
+          "hash": "i0L2DHVC6hikVpBl59MTgw=="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ColliderCreateHandler.html",
-          "hash": "vVDNQt2WWUGuLZqxH554MQ=="
+          "hash": "o6RD0+6Fszu5UCo3jhH28g=="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.CursorHandler.html",
-          "hash": "SrhV5HhNACJ8PhriVsaJGA=="
+          "hash": "cj/ODv5u7M959c0yqDwnUg=="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.DashPressedHandler.html",
-          "hash": "xQszHa0Dy/YnESVTOx3IHA=="
+          "hash": "XUA5Tjo8yNj9z9a/BS6J8A=="
         }
       },
       "is_incremental": true,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.DashVelocityHandler.html",
-          "hash": "Pps7CbU6Mg6evTUbSNcxCA=="
+          "hash": "LEflBkIJYYzRHTETRScPaw=="
         }
       },
       "is_incremental": true,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.DoAttackHandler.html",
-          "hash": "Ytek56JPfZCCQw8VrjZauQ=="
+          "hash": "hHjlZLnN7aYcpS8zuuiP3A=="
         }
       },
       "is_incremental": true,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.FocusCostHandler.html",
-          "hash": "/a1JAlGci1M5MDlQ6LWOtQ=="
+          "hash": "fCgCC4AwMuhuD1CYnk7VJA=="
         }
       },
       "is_incremental": true,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.GetBoolProxy.html",
-          "hash": "ddbJuUVrR5qHSe/4E89Q0Q=="
+          "hash": "x29hhSiSC0hp75LSUINwmw=="
         }
       },
       "is_incremental": true,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.GetIntProxy.html",
-          "hash": "lWaS0gu7o10+2hFQFS6r9w=="
+          "hash": "E2/FQGU4FvyxBPuSToErCg=="
         }
       },
       "is_incremental": true,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.GetSaveFileNameHandler.html",
-          "hash": "vSrQAwl/oPFhPBTKR0BEoA=="
+          "hash": "CbgvUd9dLRQAW45byW/LpQ=="
         }
       },
       "is_incremental": true,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.HeroUpdateHandler.html",
-          "hash": "3GHqIOC2p31brR9XFmT/Ug=="
+          "hash": "BnmxuMzXoIMEyEFQ8effMg=="
         }
       },
       "is_incremental": true,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.HookInfoAttribute.html",
-          "hash": "c/fQFAc7eSA4noVxk8jEhw=="
+          "hash": "hc2SoNc2D5I98FdZLl/xQw=="
         }
       },
       "is_incremental": true,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.IMod-1.html",
-          "hash": "bRczHaPQjclL6G/OhAQKHA=="
+          "hash": "VN3F6ZJWhBDPCg9KSsXWOg=="
         }
       },
       "is_incremental": true,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.IMod.html",
-          "hash": "T6b7jTHQ8uiTQBptRXgwQA=="
+          "hash": "Hda6+LE3dWgrONx02BooTA=="
         }
       },
       "is_incremental": true,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.IModSettings.html",
-          "hash": "NFFIiCLegFYCaaJ9nMyL7w=="
+          "hash": "gcfyE63j7ai3Pe+zo4Pr0g=="
         }
       },
       "is_incremental": true,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.LanguageGetHandler.html",
-          "hash": "kmGt/yJ/YpFkRwCMHqKyBg=="
+          "hash": "fFYq2mFAUpxoXw450Nre5g=="
         }
       },
       "is_incremental": true,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.LogLevel.html",
-          "hash": "9hDtPUIkTy/6SnnPnijtPw=="
+          "hash": "bpPnv2IHCkgPUM7jRUvyAA=="
         }
       },
       "is_incremental": true,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Logger.html",
-          "hash": "tMO8tlB59enBArSUcQAX4g=="
+          "hash": "O6L0Dm9OPUVwBbTQfp/sAg=="
         }
       },
       "is_incremental": true,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Mod-1.html",
-          "hash": "cudus2oroH0wtCbkiis/pg=="
+          "hash": "TnT/jloYWk6lEyeb3Q56kQ=="
         }
       },
       "is_incremental": true,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Mod-2.html",
-          "hash": "TX6N+fh83QJK4r0oIRVU/w=="
+          "hash": "ArM0zBAmi6oA/OtOhISfhA=="
         }
       },
       "is_incremental": true,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Mod.html",
-          "hash": "ZukdlxqKglvRUXQQLELOYg=="
+          "hash": "7biwNmpXBK/MTJgBOY33yA=="
         }
       },
       "is_incremental": true,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ModData.html",
-          "hash": "IBEnswqIIDn5NAY/5CAGsw=="
+          "hash": "C4/9VVOYOFjtbPxbRtJpzw=="
         }
       },
       "is_incremental": true,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ModHooks.html",
-          "hash": "zK2QUwRrvmw8SGTbRbLfbA=="
+          "hash": "b3cagCOCgZAlotb9BoQtXg=="
         }
       },
       "is_incremental": true,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ModHooksGlobalSettings.html",
-          "hash": "0U0yClSm1kZ7A3yV25tN+A=="
+          "hash": "zD4Bw1Gjc1Q0l9ze3woZTw=="
         }
       },
       "is_incremental": true,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ModSettingsDictionary.html",
-          "hash": "e5tXpziKE01Qa3gK3+9Pcg=="
+          "hash": "8Fshx5n3NTHqUOmeHM+CSw=="
         }
       },
       "is_incremental": true,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ModVersionDraw.html",
-          "hash": "TbCL7v+h83YT2rlxbQHEUw=="
+          "hash": "eazd3jrzD3pxHLdduJxqEQ=="
         }
       },
       "is_incremental": true,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.NewGameHandler.html",
-          "hash": "tC+ncawrM+8Q57X/N7S3rQ=="
+          "hash": "CYXMUuppFhEzio5JHEGnDA=="
         }
       },
       "is_incremental": true,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.NewPlayerDataHandler.html",
-          "hash": "nOSPemvwqR1HkhARRLWvLg=="
+          "hash": "gPb75Ax7CrQaIVTCwd+/1w=="
         }
       },
       "is_incremental": true,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SavegameLoadHandler.html",
-          "hash": "QL8xySv4gV4wUP5yhRCabg=="
+          "hash": "xUckAU8YX0uHCwEURfonJg=="
         }
       },
       "is_incremental": true,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SavegameSaveHandler.html",
-          "hash": "r5DTd4ZiqBmiP7aEePcB0g=="
+          "hash": "/t0Oc4oxUajGpbuXVHUTMg=="
         }
       },
       "is_incremental": true,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SceneChangedHandler.html",
-          "hash": "HWopiG8TZGuH8W6CVDoPLA=="
+          "hash": "R4hmXeL2C09AoTs46zHMZg=="
         }
       },
       "is_incremental": true,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SerializableBoolDictionary.html",
-          "hash": "/oPRG2TDsTlAIB9owWo4fg=="
+          "hash": "wtiQ26QCoqe/fY4q01P9Iw=="
         }
       },
       "is_incremental": true,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SerializableDictionary-2.html",
-          "hash": "Q6FExTNNN3CzOtS1c3VMxQ=="
+          "hash": "odbNCDGHyKQPquY+qSrZVg=="
         }
       },
       "is_incremental": true,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SerializableFloatDictionary.html",
-          "hash": "AXE9QpjGpYImUVpyRmPauw=="
+          "hash": "F49aOZEXTChAD8nERVx3HA=="
         }
       },
       "is_incremental": true,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SerializableIntDictionary.html",
-          "hash": "MwXeGRLW6ji2s+/1S4469Q=="
+          "hash": "eJyaCsD5Dm6uyFFO6goryQ=="
         }
       },
       "is_incremental": true,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SerializableStringDictionary.html",
-          "hash": "paYFwWX6+DyGqYbnU507pQ=="
+          "hash": "wBff2FFTDQf22LCgmfQDKQ=="
         }
       },
       "is_incremental": true,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SetBoolProxy.html",
-          "hash": "K/Her/ikqYA0N1Pu+F0Pfw=="
+          "hash": "8zziuquYd71GKw2pPrK2lg=="
         }
       },
       "is_incremental": true,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SetIntProxy.html",
-          "hash": "A6YQBkJ6Us2ncuzeif7ufw=="
+          "hash": "1zhypPR+Mzf4ma20SCApuQ=="
         }
       },
       "is_incremental": true,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SlashHitHandler.html",
-          "hash": "365TKXvVGPfPR+mOoON0KQ=="
+          "hash": "jMdfqlquhMRuFiSzl3GIqQ=="
         }
       },
       "is_incremental": true,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.SoulGainHandler.html",
-          "hash": "Ygu9CN5bASjon9X+Apu4Hw=="
+          "hash": "sJTrIiELmi+ZOsyE+1ZcnA=="
         }
       },
       "is_incremental": true,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.TakeDamageProxy.html",
-          "hash": "k+MtHfOSRyuRSJsJqO1/YQ=="
+          "hash": "UsjNUjmQiIAAEnYpsfPSLg=="
         }
       },
       "is_incremental": true,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.TakeHealthProxy.html",
-          "hash": "Dz7/DYfkm5EQr0svDSGyHw=="
+          "hash": "TAABagqNaLqrCQo3rCzIcA=="
         }
       },
       "is_incremental": true,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.VoidModSettings.html",
-          "hash": "kQvRVx6bknbUoTXGmZ8CRQ=="
+          "hash": "sMIin4xofjSDtjVMmX5Gxg=="
         }
       },
       "is_incremental": true,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "MIzR7LYM+opL0THMF+uMEg=="
+          "hash": "4yCYyGmgXt8aVfaqVJjVNQ=="
         }
       },
       "is_incremental": true,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "sdC8ZrfREbB08DWZk2XSwA=="
+          "hash": "oG9AzzA0X6yLJIunE4rGOw=="
         }
       },
       "is_incremental": true,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "BA2FgTFKLIO2daAl/udA7A=="
+          "hash": "CHLSIG03DyvLAbFLOK+Clg=="
         }
       },
       "is_incremental": true,
