@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "Source/**.csproj"
+            "Source/Assembly-CSharp/**.csproj"
           ],
           "exclude": [
             "**/obj/**",
@@ -60,15 +60,21 @@
         ]
       }
     ],
+	 "globalMetadata": {
+      "_appTitle": "Hollow Knight Modding API",
+      "_gitContribute": {
+        "repo": "https://github.com/seanpr96/HollowKnight.Modding",
+        "branch": "gh-pages"
+      }
+    },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "default"
-    ],
+    "template": "_exported_templates/ourTemplate",    
 	"properties": {
   "TargetFramework": "net35"
-},
+	},
+	
     "postProcessors": [],
     "noLangKeyword": false,
     "keepFileLink": false,
