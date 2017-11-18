@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Mod&lt;TSaveSettings, TGlobalSettings&gt;
+   | Hollow Knight Modding API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Mod&lt;TSaveSettings, TGlobalSettings&gt;
+   | Hollow Knight Modding API ">
+    <meta name="generator" content="docfx 2.27.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Modding.Mod`2">
+  
+  
+  <h1 id="Modding_Mod_2" data-uid="Modding.Mod`2" class="text-break">Class Mod&lt;TSaveSettings, TGlobalSettings&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for mods that includes the ability to have both save specific and non-save-specific global settings.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Modding.Mod.html">Mod</a></div>
+    <div class="level2"><a class="xref" href="Modding.Mod-1.html">Mod</a>&lt;TSaveSettings&gt;</div>
+    <div class="level3"><span class="xref">Mod&lt;TSaveSettings, TGlobalSettings&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Modding.IMod.html">IMod</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Modding.Mod-1.html#Modding_Mod_1_Settings">Mod&lt;TSaveSettings&gt;.Settings</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_Instance">Mod.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_Name">Mod.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_LogFine_System_String_">Mod.LogFine(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_LogDebug_System_String_">Mod.LogDebug(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_Log_System_String_">Mod.Log(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_LogWarn_System_String_">Mod.LogWarn(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_LogError_System_String_">Mod.LogError(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_Unload">Mod.Unload()</a>
+    </div>
+    <div>
+      <a class="xref" href="Modding.Mod.html#Modding_Mod_GetVersion">Mod.GetVersion()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Modding.html">Modding</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.mm.dll</h6>
+  <h5 id="Modding_Mod_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Mod&lt;TSaveSettings, TGlobalSettings&gt; : Mod&lt;TSaveSettings&gt;, IMod where TSaveSettings : IModSettings, new ()where TGlobalSettings : IModSettings, new ()</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSaveSettings</span></td>
+        <td><p>A Mod specific implementation of <a class="xref" href="Modding.IModSettings.html">IModSettings</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TGlobalSettings</span></td>
+        <td><p>A Mod specific implementation of <a class="xref" href="Modding.IModSettings.html">IModSettings</a> used for global/non-save-specific settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_Mod_2__ctor.md&amp;value=---%0Auid%3A%20Modding.Mod%602.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L169">View Source</a>
+  </span>
+  <a id="Modding_Mod_2__ctor_" data-uid="Modding.Mod`2.#ctor*"></a>
+  <h4 id="Modding_Mod_2__ctor" data-uid="Modding.Mod`2.#ctor">Mod()</h4>
+  <div class="markdown level1 summary"><p>Basic Constructor for the Mod.  </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Mod()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_Mod_2_GlobalSettings.md&amp;value=---%0Auid%3A%20Modding.Mod%602.GlobalSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L228">View Source</a>
+  </span>
+  <a id="Modding_Mod_2_GlobalSettings_" data-uid="Modding.Mod`2.GlobalSettings*"></a>
+  <h4 id="Modding_Mod_2_GlobalSettings" data-uid="Modding.Mod`2.GlobalSettings">GlobalSettings</h4>
+  <div class="markdown level1 summary"><p>Global Settings which are stored independently of saves.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TGlobalSettings GlobalSettings { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TGlobalSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_Mod_2_Initialize.md&amp;value=---%0Auid%3A%20Modding.Mod%602.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L180">View Source</a>
+  </span>
+  <a id="Modding_Mod_2_Initialize_" data-uid="Modding.Mod`2.Initialize*"></a>
+  <h4 id="Modding_Mod_2_Initialize" data-uid="Modding.Mod`2.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"><p>Initializes the mod, including loading the globalsettings </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Modding.Mod.html#Modding_Mod_Initialize">Mod.Initialize()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_Mod_2_LoadGlobalSettings.md&amp;value=---%0Auid%3A%20Modding.Mod%602.LoadGlobalSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L210">View Source</a>
+  </span>
+  <a id="Modding_Mod_2_LoadGlobalSettings_" data-uid="Modding.Mod`2.LoadGlobalSettings*"></a>
+  <h4 id="Modding_Mod_2_LoadGlobalSettings" data-uid="Modding.Mod`2.LoadGlobalSettings">LoadGlobalSettings()</h4>
+  <div class="markdown level1 summary"><p>Loads global settings from disk (if they exist)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadGlobalSettings()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_Mod_2_SaveGlobalSettings.md&amp;value=---%0Auid%3A%20Modding.Mod%602.SaveGlobalSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L188">View Source</a>
+  </span>
+  <a id="Modding_Mod_2_SaveGlobalSettings_" data-uid="Modding.Mod`2.SaveGlobalSettings*"></a>
+  <h4 id="Modding_Mod_2_SaveGlobalSettings" data-uid="Modding.Mod`2.SaveGlobalSettings">SaveGlobalSettings()</h4>
+  <div class="markdown level1 summary"><p>Save GlobalSettings to disk. (backs up the current global settings if it exists)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveGlobalSettings()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Modding.IMod.html">IMod</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_Mod_2.md&amp;value=---%0Auid%3A%20Modding.Mod%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L159" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2017 SeanPR, Wyza, MyEyes <br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

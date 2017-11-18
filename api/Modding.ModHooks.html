@@ -1,0 +1,2669 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModHooks
+   | Hollow Knight Modding API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModHooks
+   | Hollow Knight Modding API ">
+    <meta name="generator" content="docfx 2.27.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Modding.ModHooks">
+  
+  
+  <h1 id="Modding_ModHooks" data-uid="Modding.ModHooks" class="text-break">Class ModHooks
+  </h1>
+  <div class="markdown level0 summary"><p>Class to hook into various events for the game.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ModHooks</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Modding.html">Modding</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.mm.dll</h6>
+  <h5 id="Modding_ModHooks_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModHooks</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_LoadedMods.md&amp;value=---%0Auid%3A%20Modding.ModHooks.LoadedMods%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L55">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_LoadedMods" data-uid="Modding.ModHooks.LoadedMods">LoadedMods</h4>
+  <div class="markdown level1 summary"><p>Currently Loaded Mods</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; LoadedMods</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_ModVersion.md&amp;value=---%0Auid%3A%20Modding.ModHooks.ModVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L60">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_ModVersion" data-uid="Modding.ModHooks.ModVersion">ModVersion</h4>
+  <div class="markdown level1 summary"><p>The Version of the Modding API</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ModVersion</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_version.md&amp;value=---%0Auid%3A%20Modding.ModHooks.version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L66">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_version" data-uid="Modding.ModHooks.version">version</h4>
+  <div class="markdown level1 summary"><p>Version of the Game</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameVersionData version</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameVersionData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_Instance.md&amp;value=---%0Auid%3A%20Modding.ModHooks.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L88">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_Instance_" data-uid="Modding.ModHooks.Instance*"></a>
+  <h4 id="Modding_ModHooks_Instance" data-uid="Modding.ModHooks.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>Current instance of Modhooks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ModHooks Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.ModHooks.html">ModHooks</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_Logger.md&amp;value=---%0Auid%3A%20Modding.ModHooks.Logger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L48">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_Logger_" data-uid="Modding.ModHooks.Logger*"></a>
+  <h4 id="Modding_ModHooks_Logger" data-uid="Modding.ModHooks.Logger">Logger</h4>
+  <div class="markdown level1 summary"><p>Provides access to logging system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Logger Logger { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.Logger.html">Logger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AfterAttack_GlobalEnums_AttackDirection_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AfterAttack(GlobalEnums.AttackDirection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L564">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_AfterAttack_" data-uid="Modding.ModHooks.AfterAttack*"></a>
+  <h4 id="Modding_ModHooks_AfterAttack_GlobalEnums_AttackDirection_" data-uid="Modding.ModHooks.AfterAttack(GlobalEnums.AttackDirection)">AfterAttack(AttackDirection)</h4>
+  <div class="markdown level1 summary"><p>Called at the end of the attack function</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AfterAttack(AttackDirection dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GlobalEnums.AttackDirection</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_AfterAttack_GlobalEnums_AttackDirection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Attack</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AfterNewPlayerData_PlayerData_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AfterNewPlayerData(PlayerData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L306">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_AfterNewPlayerData_" data-uid="Modding.ModHooks.AfterNewPlayerData*"></a>
+  <h4 id="Modding_ModHooks_AfterNewPlayerData_PlayerData_" data-uid="Modding.ModHooks.AfterNewPlayerData(PlayerData)">AfterNewPlayerData(PlayerData)</h4>
+  <div class="markdown level1 summary"><p>Called after setting up a new PlayerData.SetupNewPlayerData</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AfterNewPlayerData(PlayerData instance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayerData</span></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AfterTakeDamage_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AfterTakeDamage(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L456">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_AfterTakeDamage_" data-uid="Modding.ModHooks.AfterTakeDamage*"></a>
+  <h4 id="Modding_ModHooks_AfterTakeDamage_System_Int32_System_Int32_" data-uid="Modding.ModHooks.AfterTakeDamage(System.Int32,System.Int32)">AfterTakeDamage(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called at the end of the take damage function</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AfterTakeDamage(int hazardType, int damageAmount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">hazardType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">damageAmount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_BeforeSceneLoad_System_String_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.BeforeSceneLoad(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1195">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_BeforeSceneLoad_" data-uid="Modding.ModHooks.BeforeSceneLoad*"></a>
+  <h4 id="Modding_ModHooks_BeforeSceneLoad_System_String_" data-uid="Modding.ModHooks.BeforeSceneLoad(System.String)">BeforeSceneLoad(String)</h4>
+  <div class="markdown level1 summary"><p>Called right before a scene gets loaded, can change which scene gets loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BeforeSceneLoad(string sceneName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sceneName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_BeforeSceneLoad_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>N/A</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_DashVelocityChange.md&amp;value=---%0Auid%3A%20Modding.ModHooks.DashVelocityChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L777">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_DashVelocityChange_" data-uid="Modding.ModHooks.DashVelocityChange*"></a>
+  <h4 id="Modding_ModHooks_DashVelocityChange" data-uid="Modding.ModHooks.DashVelocityChange">DashVelocityChange()</h4>
+  <div class="markdown level1 summary"><p>Called during dash function to change velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2? DashVelocityChange()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_DashVelocityChange_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Dash</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_GetPlayerBool_System_String_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.GetPlayerBool(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L176">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_GetPlayerBool_" data-uid="Modding.ModHooks.GetPlayerBool*"></a>
+  <h4 id="Modding_ModHooks_GetPlayerBool_System_String_" data-uid="Modding.ModHooks.GetPlayerBool(System.String)">GetPlayerBool(String)</h4>
+  <div class="markdown level1 summary"><p>Called by the game in PlayerData.GetBool</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetPlayerBool(string target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Target Field Name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_GetPlayerInt_System_String_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.GetPlayerInt(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L260">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_GetPlayerInt_" data-uid="Modding.ModHooks.GetPlayerInt*"></a>
+  <h4 id="Modding_ModHooks_GetPlayerInt_System_String_" data-uid="Modding.ModHooks.GetPlayerInt(System.String)">GetPlayerInt(String)</h4>
+  <div class="markdown level1 summary"><p>Called by the game in PlayerData.GetInt </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetPlayerInt(string target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Target Field Name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_GetSaveFileName_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.GetSaveFileName(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1049">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_GetSaveFileName_" data-uid="Modding.ModHooks.GetSaveFileName*"></a>
+  <h4 id="Modding_ModHooks_GetSaveFileName_System_Int32_" data-uid="Modding.ModHooks.GetSaveFileName(System.Int32)">GetSaveFileName(Int32)</h4>
+  <div class="markdown level1 summary"><p>Overrides the filename to load for a given slot.  Return null to use vanilla names.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetSaveFileName(int saveSlot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">saveSlot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_LanguageGet_System_String_System_String_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.LanguageGet(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1115">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_LanguageGet_" data-uid="Modding.ModHooks.LanguageGet*"></a>
+  <h4 id="Modding_ModHooks_LanguageGet_System_String_System_String_" data-uid="Modding.ModHooks.LanguageGet(System.String,System.String)">LanguageGet(String, String)</h4>
+  <div class="markdown level1 summary"><p>Called whenever localization specific strings are requested</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LanguageGet(string key, string sheet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sheet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_LanguageGet_System_String_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>N/A</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_LoadGlobalSettings.md&amp;value=---%0Auid%3A%20Modding.ModHooks.LoadGlobalSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1345">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_LoadGlobalSettings_" data-uid="Modding.ModHooks.LoadGlobalSettings*"></a>
+  <h4 id="Modding_ModHooks_LoadGlobalSettings" data-uid="Modding.ModHooks.LoadGlobalSettings">LoadGlobalSettings()</h4>
+  <div class="markdown level1 summary"><p>Loads global settings from disk (if they exist)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadGlobalSettings()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_ModLog_System_String_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.ModLog(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L104">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_ModLog_" data-uid="Modding.ModHooks.ModLog*"></a>
+  <h4 id="Modding_ModHooks_ModLog_System_String_" data-uid="Modding.ModHooks.ModLog(System.String)">ModLog(String)</h4>
+  <div class="markdown level1 summary"><p>Logs the message to ModLog.txt in the save file path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This method is obsolete and will be removed in future Mod API Versions. Use ModHooks.Instance.Logger instead.&quot;)]
+public static void ModLog(string info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>Message To Log</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnAfterSaveGameClear_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnAfterSaveGameClear(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1080">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnAfterSaveGameClear_" data-uid="Modding.ModHooks.OnAfterSaveGameClear*"></a>
+  <h4 id="Modding_ModHooks_OnAfterSaveGameClear_System_Int32_" data-uid="Modding.ModHooks.OnAfterSaveGameClear(System.Int32)">OnAfterSaveGameClear(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called after a game has been cleared from a slot.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAfterSaveGameClear(int saveSlot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">saveSlot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnAfterSaveGameLoad_Modding_Patches_SaveGameData_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnAfterSaveGameLoad(Modding.Patches.SaveGameData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L985">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnAfterSaveGameLoad_" data-uid="Modding.ModHooks.OnAfterSaveGameLoad*"></a>
+  <h4 id="Modding_ModHooks_OnAfterSaveGameLoad_Modding_Patches_SaveGameData_" data-uid="Modding.ModHooks.OnAfterSaveGameLoad(Modding.Patches.SaveGameData)">OnAfterSaveGameLoad(SaveGameData)</h4>
+  <div class="markdown level1 summary"><p>Called directly after a save has been loaded.  Allows for accessing SaveGame instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAfterSaveGameLoad(SaveGameData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Modding.Patches.SaveGameData</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnAfterSaveGameLoad_Modding_Patches_SaveGameData__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.LoadGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnApplicationQuit.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnApplicationQuit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1313">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnApplicationQuit_" data-uid="Modding.ModHooks.OnApplicationQuit*"></a>
+  <h4 id="Modding_ModHooks_OnApplicationQuit" data-uid="Modding.ModHooks.OnApplicationQuit">OnApplicationQuit()</h4>
+  <div class="markdown level1 summary"><p>Called when the game is fully closed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnApplicationQuit()</code></pre>
+  </div>
+  <h5 id="Modding_ModHooks_OnApplicationQuit_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.OnApplicationQuit</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnAttack_GlobalEnums_AttackDirection_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnAttack(GlobalEnums.AttackDirection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L497">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnAttack_" data-uid="Modding.ModHooks.OnAttack*"></a>
+  <h4 id="Modding_ModHooks_OnAttack_GlobalEnums_AttackDirection_" data-uid="Modding.ModHooks.OnAttack(GlobalEnums.AttackDirection)">OnAttack(AttackDirection)</h4>
+  <div class="markdown level1 summary"><p>Called whenever the player attacks</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAttack(AttackDirection dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GlobalEnums.AttackDirection</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnAttack_GlobalEnums_AttackDirection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Attack</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnBeforeSaveGameSave_Modding_Patches_SaveGameData_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnBeforeSaveGameSave(Modding.Patches.SaveGameData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1018">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnBeforeSaveGameSave_" data-uid="Modding.ModHooks.OnBeforeSaveGameSave*"></a>
+  <h4 id="Modding_ModHooks_OnBeforeSaveGameSave_Modding_Patches_SaveGameData_" data-uid="Modding.ModHooks.OnBeforeSaveGameSave(Modding.Patches.SaveGameData)">OnBeforeSaveGameSave(SaveGameData)</h4>
+  <div class="markdown level1 summary"><p>Called directly before save has been saved to allow for changes to the data before persisted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBeforeSaveGameSave(SaveGameData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Modding.Patches.SaveGameData</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnBeforeSaveGameSave_Modding_Patches_SaveGameData__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.SaveGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnBlueHealth.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnBlueHealth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L336">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnBlueHealth_" data-uid="Modding.ModHooks.OnBlueHealth*"></a>
+  <h4 id="Modding_ModHooks_OnBlueHealth" data-uid="Modding.ModHooks.OnBlueHealth">OnBlueHealth()</h4>
+  <div class="markdown level1 summary"><p>Called whenever blue health is updated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OnBlueHealth()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnCharmUpdate.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnCharmUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L631">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnCharmUpdate_" data-uid="Modding.ModHooks.OnCharmUpdate*"></a>
+  <h4 id="Modding_ModHooks_OnCharmUpdate" data-uid="Modding.ModHooks.OnCharmUpdate">OnCharmUpdate()</h4>
+  <div class="markdown level1 summary"><p>Called after player values for charms have been set</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCharmUpdate()</code></pre>
+  </div>
+  <h5 id="Modding_ModHooks_OnCharmUpdate_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.CharmUpdate</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnColliderCreate_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnColliderCreate(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1280">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnColliderCreate_" data-uid="Modding.ModHooks.OnColliderCreate*"></a>
+  <h4 id="Modding_ModHooks_OnColliderCreate_UnityEngine_GameObject_" data-uid="Modding.ModHooks.OnColliderCreate(UnityEngine.GameObject)">OnColliderCreate(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Called whenever a new gameobject is created with a collider and playmaker2d</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnColliderCreate(GameObject go)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">go</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnColliderCreate_UnityEngine_GameObject__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PlayMakerUnity2DProxy.Start</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnCursor.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnCursor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1235">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnCursor_" data-uid="Modding.ModHooks.OnCursor*"></a>
+  <h4 id="Modding_ModHooks_OnCursor" data-uid="Modding.ModHooks.OnCursor">OnCursor()</h4>
+  <div class="markdown level1 summary"><p>Called whenever game tries to show cursor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCursor()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnDashPressed.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnDashPressed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L810">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnDashPressed_" data-uid="Modding.ModHooks.OnDashPressed*"></a>
+  <h4 id="Modding_ModHooks_OnDashPressed" data-uid="Modding.ModHooks.OnDashPressed">OnDashPressed()</h4>
+  <div class="markdown level1 summary"><p>Called whenever the dash key is pressed. Overrides normal dash functionality</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OnDashPressed()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnDashPressed_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.LookForQueueInput</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnDoAttack.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnDoAttack%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L529">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnDoAttack_" data-uid="Modding.ModHooks.OnDoAttack*"></a>
+  <h4 id="Modding_ModHooks_OnDoAttack" data-uid="Modding.ModHooks.OnDoAttack">OnDoAttack()</h4>
+  <div class="markdown level1 summary"><p>Called at the start of the DoAttack function</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDoAttack()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnFocusCost.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnFocusCost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L696">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnFocusCost_" data-uid="Modding.ModHooks.OnFocusCost*"></a>
+  <h4 id="Modding_ModHooks_OnFocusCost" data-uid="Modding.ModHooks.OnFocusCost">OnFocusCost()</h4>
+  <div class="markdown level1 summary"><p>Called whenever focus cost is calculated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float OnFocusCost()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnHeroUpdate.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnHeroUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L665">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnHeroUpdate_" data-uid="Modding.ModHooks.OnHeroUpdate*"></a>
+  <h4 id="Modding_ModHooks_OnHeroUpdate" data-uid="Modding.ModHooks.OnHeroUpdate">OnHeroUpdate()</h4>
+  <div class="markdown level1 summary"><p>Called whenever the hero updates</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnHeroUpdate()</code></pre>
+  </div>
+  <h5 id="Modding_ModHooks_OnHeroUpdate_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Update</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnNewGame.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnNewGame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L919">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnNewGame_" data-uid="Modding.ModHooks.OnNewGame*"></a>
+  <h4 id="Modding_ModHooks_OnNewGame" data-uid="Modding.ModHooks.OnNewGame">OnNewGame()</h4>
+  <div class="markdown level1 summary"><p>Called whenever a new game is started</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnNewGame()</code></pre>
+  </div>
+  <h5 id="Modding_ModHooks_OnNewGame_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.LoadFirstScene</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnSavegameClear_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnSavegameClear(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L952">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnSavegameClear_" data-uid="Modding.ModHooks.OnSavegameClear*"></a>
+  <h4 id="Modding_ModHooks_OnSavegameClear_System_Int32_" data-uid="Modding.ModHooks.OnSavegameClear(System.Int32)">OnSavegameClear(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called before a save file is deleted</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSavegameClear(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnSavegameClear_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.ClearSaveFile</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnSavegameLoad_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnSavegameLoad(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L853">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnSavegameLoad_" data-uid="Modding.ModHooks.OnSavegameLoad*"></a>
+  <h4 id="Modding_ModHooks_OnSavegameLoad_System_Int32_" data-uid="Modding.ModHooks.OnSavegameLoad(System.Int32)">OnSavegameLoad(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called directly after a save has been loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSavegameLoad(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnSavegameLoad_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.LoadGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnSavegameSave_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnSavegameSave(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L886">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnSavegameSave_" data-uid="Modding.ModHooks.OnSavegameSave*"></a>
+  <h4 id="Modding_ModHooks_OnSavegameSave_System_Int32_" data-uid="Modding.ModHooks.OnSavegameSave(System.Int32)">OnSavegameSave(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called directly after a save has been saved</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSavegameSave(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnSavegameSave_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.SaveGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnSceneChanged_System_String_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnSceneChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1162">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnSceneChanged_" data-uid="Modding.ModHooks.OnSceneChanged*"></a>
+  <h4 id="Modding_ModHooks_OnSceneChanged_System_String_" data-uid="Modding.ModHooks.OnSceneChanged(System.String)">OnSceneChanged(String)</h4>
+  <div class="markdown level1 summary"><p>Called after a new Scene has been loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSceneChanged(string targetScene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetScene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnSceneChanged_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>N/A</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnSlashHit_UnityEngine_Collider2D_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnSlashHit(UnityEngine.Collider2D%2CUnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L595">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnSlashHit_" data-uid="Modding.ModHooks.OnSlashHit*"></a>
+  <h4 id="Modding_ModHooks_OnSlashHit_UnityEngine_Collider2D_UnityEngine_GameObject_" data-uid="Modding.ModHooks.OnSlashHit(UnityEngine.Collider2D,UnityEngine.GameObject)">OnSlashHit(Collider2D, GameObject)</h4>
+  <div class="markdown level1 summary"><p>Called whenever nail strikes something</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSlashHit(Collider2D otherCollider, GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Collider2D</span></td>
+        <td><span class="parametername">otherCollider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnSoulGain_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnSoulGain(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L736">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnSoulGain_" data-uid="Modding.ModHooks.OnSoulGain*"></a>
+  <h4 id="Modding_ModHooks_OnSoulGain_System_Int32_" data-uid="Modding.ModHooks.OnSoulGain(System.Int32)">OnSoulGain(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called when Hero recovers Soul from hitting enemies</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OnSoulGain(int num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">num</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnTakeDamage_System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnTakeDamage(System.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L418">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnTakeDamage_" data-uid="Modding.ModHooks.OnTakeDamage*"></a>
+  <h4 id="Modding_ModHooks_OnTakeDamage_System_Int32__System_Int32_" data-uid="Modding.ModHooks.OnTakeDamage(System.Int32@,System.Int32)">OnTakeDamage(ref Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called when damage is dealt to the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OnTakeDamage(ref int hazardType, int damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">hazardType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnTakeDamage_System_Int32__System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.TakeDamage</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_OnTakeHealth_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.OnTakeHealth(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L378">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_OnTakeHealth_" data-uid="Modding.ModHooks.OnTakeHealth*"></a>
+  <h4 id="Modding_ModHooks_OnTakeHealth_System_Int32_" data-uid="Modding.ModHooks.OnTakeHealth(System.Int32)">OnTakeHealth(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called when health is taken from the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OnTakeHealth(int damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_OnTakeHealth_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.TakeHealth</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SetPlayerBool_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SetPlayerBool(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L139">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_SetPlayerBool_" data-uid="Modding.ModHooks.SetPlayerBool*"></a>
+  <h4 id="Modding_ModHooks_SetPlayerBool_System_String_System_Boolean_" data-uid="Modding.ModHooks.SetPlayerBool(System.String,System.Boolean)">SetPlayerBool(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Called by the game in PlayerData.SetBool </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPlayerBool(string target, bool val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Target Field Name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">val</span></td>
+        <td><p>Value to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SetPlayerInt_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SetPlayerInt(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L224">View Source</a>
+  </span>
+  <a id="Modding_ModHooks_SetPlayerInt_" data-uid="Modding.ModHooks.SetPlayerInt*"></a>
+  <h4 id="Modding_ModHooks_SetPlayerInt_System_String_System_Int32_" data-uid="Modding.ModHooks.SetPlayerInt(System.String,System.Int32)">SetPlayerInt(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called by the game in PlayerData.SetInt </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPlayerInt(string target, int val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Target Field Name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">val</span></td>
+        <td><p>Value to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AfterAttackHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AfterAttackHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L541">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_AfterAttackHook" data-uid="Modding.ModHooks.AfterAttackHook">AfterAttackHook</h4>
+  <div class="markdown level1 summary"><p>Called at the end of the attack function</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called at the end of the attack function&quot;, &quot;HeroController.Attack&quot;)]
+[MonoModPublic]
+public event AfterAttackHandler AfterAttackHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.AfterAttackHandler.html">AfterAttackHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_AfterAttackHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Attack</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AfterSaveGameClearHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AfterSaveGameClearHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1059">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_AfterSaveGameClearHook" data-uid="Modding.ModHooks.AfterSaveGameClearHook">AfterSaveGameClearHook</h4>
+  <div class="markdown level1 summary"><p>Called after a game has been cleared from a slot.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called after a savegame has been cleared.&quot;, &quot;GameManager.GetSaveFilename&quot;)]
+public event AfterClearSaveGameHandler AfterSaveGameClearHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.AfterClearSaveGameHandler.html">AfterClearSaveGameHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AfterSavegameLoadHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AfterSavegameLoadHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L963">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_AfterSavegameLoadHook" data-uid="Modding.ModHooks.AfterSavegameLoadHook">AfterSavegameLoadHook</h4>
+  <div class="markdown level1 summary"><p>Called directly after a save has been loaded.  Allows for accessing SaveGame instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called directly after a save has been loaded.  Allows for accessing SaveGame instance.&quot;, &quot;GameManager.LoadGame&quot;)]
+public event AfterSavegameLoadHandler AfterSavegameLoadHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.AfterSavegameLoadHandler.html">AfterSavegameLoadHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_AfterSavegameLoadHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.LoadGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AfterTakeDamageHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AfterTakeDamageHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L435">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_AfterTakeDamageHook" data-uid="Modding.ModHooks.AfterTakeDamageHook">AfterTakeDamageHook</h4>
+  <div class="markdown level1 summary"><p>Called at the end of the take damage function</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called at the end of the take damage function&quot;, &quot;HeroController.TakeDamage&quot;)]
+public event AfterTakeDamageHandler AfterTakeDamageHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.AfterTakeDamageHandler.html">AfterTakeDamageHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_ApplicationQuitHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.ApplicationQuitHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1291">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_ApplicationQuitHook" data-uid="Modding.ModHooks.ApplicationQuitHook">ApplicationQuitHook</h4>
+  <div class="markdown level1 summary"><p>Called when the game is fully closed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when the game is fully closed&quot;, &quot;GameManager.OnApplicationQuit&quot;)]
+public event ApplicationQuitHandler ApplicationQuitHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.ApplicationQuitHandler.html">ApplicationQuitHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_ApplicationQuitHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.OnApplicationQuit</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_AttackHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.AttackHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L475">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_AttackHook" data-uid="Modding.ModHooks.AttackHook">AttackHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever the player attacks</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever the player attacks&quot;, &quot;HeroController.Attack&quot;)]
+public event AttackHandler AttackHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.AttackHandler.html">AttackHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_AttackHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Attack</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_BeforeSavegameSaveHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.BeforeSavegameSaveHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L996">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_BeforeSavegameSaveHook" data-uid="Modding.ModHooks.BeforeSavegameSaveHook">BeforeSavegameSaveHook</h4>
+  <div class="markdown level1 summary"><p>Called directly before save has been saved to allow for changes to the data before persisted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called directly before save has been saved to allow for changes to the data before persisted.&quot;, &quot;GameManager.SaveGame&quot;)]
+public event BeforeSavegameSaveHandler BeforeSavegameSaveHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.BeforeSavegameSaveHandler.html">BeforeSavegameSaveHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_BeforeSavegameSaveHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.SaveGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_BeforeSceneLoadHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.BeforeSceneLoadHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1173">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_BeforeSceneLoadHook" data-uid="Modding.ModHooks.BeforeSceneLoadHook">BeforeSceneLoadHook</h4>
+  <div class="markdown level1 summary"><p>Called right before a scene gets loaded, can change which scene gets loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called right before a scene gets loaded, can change which scene gets loaded&quot;, &quot;GameManager.LoadScene&quot;)]
+public event BeforeSceneLoadHandler BeforeSceneLoadHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.BeforeSceneLoadHandler.html">BeforeSceneLoadHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_BeforeSceneLoadHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>N/A</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_BlueHealthHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.BlueHealthHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L315">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_BlueHealthHook" data-uid="Modding.ModHooks.BlueHealthHook">BlueHealthHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever blue health is updated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever blue health is updated&quot;, &quot;PlayerData.UpdateBlueHealth&quot;)]
+public event BlueHealthHandler BlueHealthHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.BlueHealthHandler.html">BlueHealthHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_CharmUpdateHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.CharmUpdateHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L608">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_CharmUpdateHook" data-uid="Modding.ModHooks.CharmUpdateHook">CharmUpdateHook</h4>
+  <div class="markdown level1 summary"><p>Called after player values for charms have been set</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called after player values for charms have been set&quot;, &quot;HeroController.CharmUpdate&quot;)]
+public event CharmUpdateHandler CharmUpdateHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.CharmUpdateHandler.html">CharmUpdateHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_CharmUpdateHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.CharmUpdate</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_ColliderCreateHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.ColliderCreateHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1258">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_ColliderCreateHook" data-uid="Modding.ModHooks.ColliderCreateHook">ColliderCreateHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever a new gameobject is created with a collider and playmaker2d</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever a new gameobject is created with a collider and playmaker2d&quot;, &quot;PlayMakerUnity2DProxy.Start&quot;)]
+public event ColliderCreateHandler ColliderCreateHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.ColliderCreateHandler.html">ColliderCreateHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_ColliderCreateHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PlayMakerUnity2DProxy.Start</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_CursorHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.CursorHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1214">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_CursorHook" data-uid="Modding.ModHooks.CursorHook">CursorHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever game tries to show cursor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever game tries to show cursor&quot;, &quot;InputHandler.OnGUI&quot;)]
+public event CursorHandler CursorHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.CursorHandler.html">CursorHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_DashPressedHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.DashPressedHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L788">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_DashPressedHook" data-uid="Modding.ModHooks.DashPressedHook">DashPressedHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever the dash key is pressed. Overrides normal dash functionality</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever the dash key is pressed. Overrides normal dash functionality&quot;, &quot;HeroController.LookForQueueInput&quot;)]
+public event DashPressedHandler DashPressedHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.DashPressedHandler.html">DashPressedHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_DashPressedHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.LookForQueueInput</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_DashVectorHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.DashVectorHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L755">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_DashVectorHook" data-uid="Modding.ModHooks.DashVectorHook">DashVectorHook</h4>
+  <div class="markdown level1 summary"><p>Called during dash function to change velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called during dash function to change velocity&quot;, &quot;HeroController.Dash&quot;)]
+public event DashVelocityHandler DashVectorHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.DashVelocityHandler.html">DashVelocityHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_DashVectorHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Dash</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_DoAttackHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.DoAttackHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L507">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_DoAttackHook" data-uid="Modding.ModHooks.DoAttackHook">DoAttackHook</h4>
+  <div class="markdown level1 summary"><p>Called at the start of the DoAttack function</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called at the start of the DoAttack function&quot;, &quot;HeroController.DoAttack&quot;)]
+public event DoAttackHandler DoAttackHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.DoAttackHandler.html">DoAttackHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_FocusCostHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.FocusCostHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L675">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_FocusCostHook" data-uid="Modding.ModHooks.FocusCostHook">FocusCostHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever focus cost is calculated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever focus cost is calculated&quot;, &quot;HeroController.StartMPDrain&quot;)]
+public event FocusCostHandler FocusCostHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.FocusCostHandler.html">FocusCostHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_GetPlayerBoolHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.GetPlayerBoolHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L154">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_GetPlayerBoolHook" data-uid="Modding.ModHooks.GetPlayerBoolHook">GetPlayerBoolHook</h4>
+  <div class="markdown level1 summary"><p>Called when anything in the game tries to get a bool from player data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when anything in the game tries to get a bool from player data&quot;, &quot;PlayerData.GetBool&quot;)]
+public event GetBoolProxy GetPlayerBoolHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.GetBoolProxy.html">GetBoolProxy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_GetPlayerBoolHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PlayerData.GetBool</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_GetPlayerIntHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.GetPlayerIntHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L238">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_GetPlayerIntHook" data-uid="Modding.ModHooks.GetPlayerIntHook">GetPlayerIntHook</h4>
+  <div class="markdown level1 summary"><p>Called when anything in the game tries to get an int from player data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when anything in the game tries to get an int from player data&quot;, &quot;PlayerData.GetInt&quot;)]
+public event GetIntProxy GetPlayerIntHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.GetIntProxy.html">GetIntProxy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_GetPlayerIntHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PlayerData.GetInt</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_GetSaveFileNameHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.GetSaveFileNameHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1028">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_GetSaveFileNameHook" data-uid="Modding.ModHooks.GetSaveFileNameHook">GetSaveFileNameHook</h4>
+  <div class="markdown level1 summary"><p>Overrides the filename to load for a given slot.  Return null to use vanilla names.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Overrides the filename for a slot.&quot;, &quot;GameManager.SaveGameClear&quot;)]
+public event GetSaveFileNameHandler GetSaveFileNameHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.GetSaveFileNameHandler.html">GetSaveFileNameHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_HeroUpdateHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.HeroUpdateHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L642">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_HeroUpdateHook" data-uid="Modding.ModHooks.HeroUpdateHook">HeroUpdateHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever the hero updates</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever the hero updates&quot;, &quot;HeroController.Update&quot;)]
+public event HeroUpdateHandler HeroUpdateHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.HeroUpdateHandler.html">HeroUpdateHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_HeroUpdateHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.Update</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_LanguageGetHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.LanguageGetHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1093">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_LanguageGetHook" data-uid="Modding.ModHooks.LanguageGetHook">LanguageGetHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever localization specific strings are requested</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever localization specific strings are requested&quot;, &quot;N/A&quot;)]
+public event LanguageGetHandler LanguageGetHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.LanguageGetHandler.html">LanguageGetHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_LanguageGetHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>N/A</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_NewGameHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.NewGameHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L897">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_NewGameHook" data-uid="Modding.ModHooks.NewGameHook">NewGameHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever a new game is started</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever a new game is started&quot;, &quot;GameManager.LoadFirstScene&quot;)]
+public event NewGameHandler NewGameHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.NewGameHandler.html">NewGameHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_NewGameHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.LoadFirstScene</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_NewPlayerDataHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.NewPlayerDataHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L287">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_NewPlayerDataHook" data-uid="Modding.ModHooks.NewPlayerDataHook">NewPlayerDataHook</h4>
+  <div class="markdown level1 summary"><p>Called after setting up a new PlayerData</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called after setting up a new PlayerData&quot;, &quot;PlayerData.SetupNewPlayerData&quot;)]
+public event NewPlayerDataHandler NewPlayerDataHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.NewPlayerDataHandler.html">NewPlayerDataHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_NewPlayerDataHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PlayerData.SetupNewPlayerData</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SavegameClearHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SavegameClearHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L930">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SavegameClearHook" data-uid="Modding.ModHooks.SavegameClearHook">SavegameClearHook</h4>
+  <div class="markdown level1 summary"><p>Called before a save file is deleted</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever a save file is deleted&quot;, &quot;GameManager.ClearSaveFile&quot;)]
+public event ClearSaveGameHandler SavegameClearHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.ClearSaveGameHandler.html">ClearSaveGameHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_SavegameClearHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.ClearSaveFile</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SavegameLoadHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SavegameLoadHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L830">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SavegameLoadHook" data-uid="Modding.ModHooks.SavegameLoadHook">SavegameLoadHook</h4>
+  <div class="markdown level1 summary"><p>Called directly after a save has been loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called directly after a save has been loaded&quot;, &quot;GameManager.LoadGame&quot;)]
+public event SavegameLoadHandler SavegameLoadHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SavegameLoadHandler.html">SavegameLoadHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_SavegameLoadHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.LoadGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SavegameSaveHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SavegameSaveHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L864">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SavegameSaveHook" data-uid="Modding.ModHooks.SavegameSaveHook">SavegameSaveHook</h4>
+  <div class="markdown level1 summary"><p>Called directly after a save has been saved</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called directly after a save has been saved&quot;, &quot;GameManager.SaveGame&quot;)]
+public event SavegameSaveHandler SavegameSaveHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SavegameSaveHandler.html">SavegameSaveHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_SavegameSaveHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>GameManager.SaveGame</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SceneChanged.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SceneChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L1140">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SceneChanged" data-uid="Modding.ModHooks.SceneChanged">SceneChanged</h4>
+  <div class="markdown level1 summary"><p>Called after a new Scene has been loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called after a new Scene has been loaded&quot;, &quot;GameManager.LoadScene&quot;)]
+public event SceneChangedHandler SceneChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SceneChangedHandler.html">SceneChangedHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_SceneChanged_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>N/A</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SetPlayerBoolHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SetPlayerBoolHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L116">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SetPlayerBoolHook" data-uid="Modding.ModHooks.SetPlayerBoolHook">SetPlayerBoolHook</h4>
+  <div class="markdown level1 summary"><p>Called when anything in the game tries to set a bool in player data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when anything in the game tries to set a bool in player data&quot;, &quot;PlayerData.SetBool&quot;)]
+public event SetBoolProxy SetPlayerBoolHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SetBoolProxy.html">SetBoolProxy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_SetPlayerBoolHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PlayerData.SetBool</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SetPlayerIntHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SetPlayerIntHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L201">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SetPlayerIntHook" data-uid="Modding.ModHooks.SetPlayerIntHook">SetPlayerIntHook</h4>
+  <div class="markdown level1 summary"><p>Called when anything in the game tries to set an int in player data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when anything in the game tries to set an int in player data&quot;, &quot;PlayerData.SetInt&quot;)]
+public event SetIntProxy SetPlayerIntHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SetIntProxy.html">SetIntProxy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_SetPlayerIntHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>PlayerData.SetInt</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SlashHitHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SlashHitHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L574">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SlashHitHook" data-uid="Modding.ModHooks.SlashHitHook">SlashHitHook</h4>
+  <div class="markdown level1 summary"><p>Called whenever nail strikes something</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called whenever nail strikes something&quot;, &quot;NailSlash.OnTriggerEnter2D&quot;)]
+public event SlashHitHandler SlashHitHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SlashHitHandler.html">SlashHitHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_SoulGainHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.SoulGainHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L714">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_SoulGainHook" data-uid="Modding.ModHooks.SoulGainHook">SoulGainHook</h4>
+  <div class="markdown level1 summary"><p>Called when Hero recovers Soul from hitting enemies</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when Hero recovers Soul from hitting enemies&quot;, &quot;HeroController.SoulGain&quot;)]
+public event SoulGainHandler SoulGainHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SoulGainHandler.html">SoulGainHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_TakeDamageHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.TakeDamageHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L396">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_TakeDamageHook" data-uid="Modding.ModHooks.TakeDamageHook">TakeDamageHook</h4>
+  <div class="markdown level1 summary"><p>Called when damage is dealt to the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when damage is dealt to the player&quot;, &quot;HeroController.TakeDamage&quot;)]
+public event TakeDamageProxy TakeDamageHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.TakeDamageProxy.html">TakeDamageProxy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_TakeDamageHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.TakeDamage</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks_TakeHealthHook.md&amp;value=---%0Auid%3A%20Modding.ModHooks.TakeHealthHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L356">View Source</a>
+  </span>
+  <h4 id="Modding_ModHooks_TakeHealthHook" data-uid="Modding.ModHooks.TakeHealthHook">TakeHealthHook</h4>
+  <div class="markdown level1 summary"><p>Called when health is taken from the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HookInfo(&quot;Called when health is taken from the player&quot;, &quot;PlayerData.TakeHealth&quot;)]
+public event TakeHealthProxy TakeHealthHook</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.TakeHealthProxy.html">TakeHealthProxy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Modding_ModHooks_TakeHealthHook_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>HeroController.TakeHealth</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_ModHooks.md&amp;value=---%0Auid%3A%20Modding.ModHooks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/ModHooks.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2017 SeanPR, Wyza, MyEyes <br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

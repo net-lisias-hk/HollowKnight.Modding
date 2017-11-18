@@ -1,0 +1,776 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/iamwy/source/repos/HollowKnight.Modding",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "mEFyVJS+RJYzRwszalQbRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.AfterAttackHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.AfterAttackHandler.html",
+          "hash": "107NVbaIhr/BE2rDhUoYLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.AfterClearSaveGameHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.AfterClearSaveGameHandler.html",
+          "hash": "AYc2Lf+3yeOS+is1ZQWCNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.AfterSavegameLoadHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.AfterSavegameLoadHandler.html",
+          "hash": "DfBcoFewrzEN11+8e7mC7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.AfterTakeDamageHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.AfterTakeDamageHandler.html",
+          "hash": "2xaQsP0NzgspT0HeNBupnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ApplicationQuitHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ApplicationQuitHandler.html",
+          "hash": "vun56HuonAo718n5wW3Pfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.AttackHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.AttackHandler.html",
+          "hash": "X8BFkA8zagrFbYvOM43Uww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.BeforeSavegameSaveHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.BeforeSavegameSaveHandler.html",
+          "hash": "Xfr7kr6/rfzj49urlL6jCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.BeforeSceneLoadHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.BeforeSceneLoadHandler.html",
+          "hash": "8WgSZxQf6+Y1aYhIYjXkww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.BlueHealthHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.BlueHealthHandler.html",
+          "hash": "hdwENxLeB8wArR8dRuslhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.CharmUpdateHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.CharmUpdateHandler.html",
+          "hash": "RuW7E2PtBz/Ujo8QaclyJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ClearSaveGameHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ClearSaveGameHandler.html",
+          "hash": "FxPRvrikYBrFfEZKXmg3OQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ColliderCreateHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ColliderCreateHandler.html",
+          "hash": "vVDNQt2WWUGuLZqxH554MQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.CursorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.CursorHandler.html",
+          "hash": "SrhV5HhNACJ8PhriVsaJGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.DashPressedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.DashPressedHandler.html",
+          "hash": "xQszHa0Dy/YnESVTOx3IHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.DashVelocityHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.DashVelocityHandler.html",
+          "hash": "Pps7CbU6Mg6evTUbSNcxCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.DoAttackHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.DoAttackHandler.html",
+          "hash": "Ytek56JPfZCCQw8VrjZauQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.FocusCostHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.FocusCostHandler.html",
+          "hash": "/a1JAlGci1M5MDlQ6LWOtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.GetBoolProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.GetBoolProxy.html",
+          "hash": "ddbJuUVrR5qHSe/4E89Q0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.GetIntProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.GetIntProxy.html",
+          "hash": "lWaS0gu7o10+2hFQFS6r9w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.GetSaveFileNameHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.GetSaveFileNameHandler.html",
+          "hash": "vSrQAwl/oPFhPBTKR0BEoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.HeroUpdateHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.HeroUpdateHandler.html",
+          "hash": "3GHqIOC2p31brR9XFmT/Ug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.HookInfoAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.HookInfoAttribute.html",
+          "hash": "c/fQFAc7eSA4noVxk8jEhw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.IMod-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.IMod-1.html",
+          "hash": "bRczHaPQjclL6G/OhAQKHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.IMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.IMod.html",
+          "hash": "T6b7jTHQ8uiTQBptRXgwQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.IModSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.IModSettings.html",
+          "hash": "NFFIiCLegFYCaaJ9nMyL7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.LanguageGetHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.LanguageGetHandler.html",
+          "hash": "kmGt/yJ/YpFkRwCMHqKyBg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.LogLevel.html",
+          "hash": "9hDtPUIkTy/6SnnPnijtPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.Logger.html",
+          "hash": "tMO8tlB59enBArSUcQAX4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.Mod-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.Mod-1.html",
+          "hash": "cudus2oroH0wtCbkiis/pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.Mod-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.Mod-2.html",
+          "hash": "TX6N+fh83QJK4r0oIRVU/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.Mod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.Mod.html",
+          "hash": "ZukdlxqKglvRUXQQLELOYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ModData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ModData.html",
+          "hash": "IBEnswqIIDn5NAY/5CAGsw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ModHooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ModHooks.html",
+          "hash": "zK2QUwRrvmw8SGTbRbLfbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ModHooksGlobalSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ModHooksGlobalSettings.html",
+          "hash": "0U0yClSm1kZ7A3yV25tN+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ModSettingsDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ModSettingsDictionary.html",
+          "hash": "e5tXpziKE01Qa3gK3+9Pcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.ModVersionDraw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.ModVersionDraw.html",
+          "hash": "TbCL7v+h83YT2rlxbQHEUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.NewGameHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.NewGameHandler.html",
+          "hash": "tC+ncawrM+8Q57X/N7S3rQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.NewPlayerDataHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.NewPlayerDataHandler.html",
+          "hash": "nOSPemvwqR1HkhARRLWvLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SavegameLoadHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SavegameLoadHandler.html",
+          "hash": "QL8xySv4gV4wUP5yhRCabg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SavegameSaveHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SavegameSaveHandler.html",
+          "hash": "r5DTd4ZiqBmiP7aEePcB0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SceneChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SceneChangedHandler.html",
+          "hash": "HWopiG8TZGuH8W6CVDoPLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SerializableBoolDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SerializableBoolDictionary.html",
+          "hash": "/oPRG2TDsTlAIB9owWo4fg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SerializableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SerializableDictionary-2.html",
+          "hash": "Q6FExTNNN3CzOtS1c3VMxQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SerializableFloatDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SerializableFloatDictionary.html",
+          "hash": "AXE9QpjGpYImUVpyRmPauw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SerializableIntDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SerializableIntDictionary.html",
+          "hash": "MwXeGRLW6ji2s+/1S4469Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SerializableStringDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SerializableStringDictionary.html",
+          "hash": "paYFwWX6+DyGqYbnU507pQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SetBoolProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SetBoolProxy.html",
+          "hash": "K/Her/ikqYA0N1Pu+F0Pfw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SetIntProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SetIntProxy.html",
+          "hash": "A6YQBkJ6Us2ncuzeif7ufw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SlashHitHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SlashHitHandler.html",
+          "hash": "365TKXvVGPfPR+mOoON0KQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.SoulGainHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.SoulGainHandler.html",
+          "hash": "Ygu9CN5bASjon9X+Apu4Hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.TakeDamageProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.TakeDamageProxy.html",
+          "hash": "k+MtHfOSRyuRSJsJqO1/YQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.TakeHealthProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.TakeHealthProxy.html",
+          "hash": "Dz7/DYfkm5EQr0svDSGyHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.VoidModSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.VoidModSettings.html",
+          "hash": "kQvRVx6bknbUoTXGmZ8CRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.html",
+          "hash": "KRMdRYoiqtear2CQeJUaTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "MIzR7LYM+opL0THMF+uMEg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "GM0iBr5JHTSneJDSqa9xeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "sdC8ZrfREbB08DWZk2XSwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "xVlQaX7Tk85omoiWv3O+Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "BA2FgTFKLIO2daAl/udA7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ob7LqWp4kTNLz+9W4omdTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

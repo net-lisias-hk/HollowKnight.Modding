@@ -1,0 +1,760 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class IModSettings
+   | Hollow Knight Modding API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class IModSettings
+   | Hollow Knight Modding API ">
+    <meta name="generator" content="docfx 2.27.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Modding.IModSettings">
+  
+  
+  <h1 id="Modding_IModSettings" data-uid="Modding.IModSettings" class="text-break">Class IModSettings
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for storing settings for a Mod in the save file.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">IModSettings</span></div>
+      <div class="level2"><a class="xref" href="Modding.ModHooksGlobalSettings.html">ModHooksGlobalSettings</a></div>
+      <div class="level2"><a class="xref" href="Modding.VoidModSettings.html">VoidModSettings</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.ISerializationCallbackReceiver</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Modding.html">Modding</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.mm.dll</h6>
+  <h5 id="Modding_IModSettings_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class IModSettings : ISerializationCallbackReceiver</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings__ctor.md&amp;value=---%0Auid%3A%20Modding.IModSettings.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L16">View Source</a>
+  </span>
+  <a id="Modding_IModSettings__ctor_" data-uid="Modding.IModSettings.#ctor*"></a>
+  <h4 id="Modding_IModSettings__ctor" data-uid="Modding.IModSettings.#ctor">IModSettings()</h4>
+  <div class="markdown level1 summary"><p>Initializes All Dictionaries</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IModSettings()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_BoolValues.md&amp;value=---%0Auid%3A%20Modding.IModSettings.BoolValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L168">View Source</a>
+  </span>
+  <h4 id="Modding_IModSettings_BoolValues" data-uid="Modding.IModSettings.BoolValues">BoolValues</h4>
+  <div class="markdown level1 summary"><p>Bools to be Stored</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public SerializableBoolDictionary BoolValues</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SerializableBoolDictionary.html">SerializableBoolDictionary</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_FloatValues.md&amp;value=---%0Auid%3A%20Modding.IModSettings.FloatValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L174">View Source</a>
+  </span>
+  <h4 id="Modding_IModSettings_FloatValues" data-uid="Modding.IModSettings.FloatValues">FloatValues</h4>
+  <div class="markdown level1 summary"><p>Float Values to be Stored</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public SerializableFloatDictionary FloatValues</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SerializableFloatDictionary.html">SerializableFloatDictionary</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_IntValues.md&amp;value=---%0Auid%3A%20Modding.IModSettings.IntValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L162">View Source</a>
+  </span>
+  <h4 id="Modding_IModSettings_IntValues" data-uid="Modding.IModSettings.IntValues">IntValues</h4>
+  <div class="markdown level1 summary"><p>Int Values to be Stored</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public SerializableIntDictionary IntValues</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SerializableIntDictionary.html">SerializableIntDictionary</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_StringValues.md&amp;value=---%0Auid%3A%20Modding.IModSettings.StringValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L156">View Source</a>
+  </span>
+  <h4 id="Modding_IModSettings_StringValues" data-uid="Modding.IModSettings.StringValues">StringValues</h4>
+  <div class="markdown level1 summary"><p>String Values to be Stored</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public SerializableStringDictionary StringValues</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.SerializableStringDictionary.html">SerializableStringDictionary</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_GetBool_System_Nullable_System_Boolean__System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.GetBool(System.Nullable%7BSystem.Boolean%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L96">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_GetBool_" data-uid="Modding.IModSettings.GetBool*"></a>
+  <h4 id="Modding_IModSettings_GetBool_System_Nullable_System_Boolean__System_String_" data-uid="Modding.IModSettings.GetBool(System.Nullable{System.Boolean},System.String)">GetBool(Nullable&lt;Boolean&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Handles fetching of a value in the BoolValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetBool(bool ? defaultValue = default (bool ? ), string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default Value to use if value is not found in the Settings Dictionary</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Bool Value for the dictionary</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_GetFloat_System_Nullable_System_Single__System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.GetFloat(System.Nullable%7BSystem.Single%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L122">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_GetFloat_" data-uid="Modding.IModSettings.GetFloat*"></a>
+  <h4 id="Modding_IModSettings_GetFloat_System_Nullable_System_Single__System_String_" data-uid="Modding.IModSettings.GetFloat(System.Nullable{System.Single},System.String)">GetFloat(Nullable&lt;Single&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Handles fetching of a value in the FloatValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetFloat(float ? defaultValue = default (float ? ), string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default Value to use if value is not found in the Settings Dictionary</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Float Value for the dictionary</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_GetInt_System_Nullable_System_Int32__System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.GetInt(System.Nullable%7BSystem.Int32%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L69">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_GetInt_" data-uid="Modding.IModSettings.GetInt*"></a>
+  <h4 id="Modding_IModSettings_GetInt_System_Nullable_System_Int32__System_String_" data-uid="Modding.IModSettings.GetInt(System.Nullable{System.Int32},System.String)">GetInt(Nullable&lt;Int32&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Handles fetching of a value in the IntValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetInt(int ? defaultValue = default (int ? ), string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default Value to use if value is not found in the Settings Dictionary</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Int Value for the dictionary</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_GetString_System_String_System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.GetString(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L43">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_GetString_" data-uid="Modding.IModSettings.GetString*"></a>
+  <h4 id="Modding_IModSettings_GetString_System_String_System_String_" data-uid="Modding.IModSettings.GetString(System.String,System.String)">GetString(String, String)</h4>
+  <div class="markdown level1 summary"><p>Handles fetching of a value in the StringValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetString(string defaultValue = null, string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default Value to use if value is not found in the Settings Dictionary</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>String Value for the dictionary</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_OnAfterDeserialize.md&amp;value=---%0Auid%3A%20Modding.IModSettings.OnAfterDeserialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L148">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_OnAfterDeserialize_" data-uid="Modding.IModSettings.OnAfterDeserialize*"></a>
+  <h4 id="Modding_IModSettings_OnAfterDeserialize" data-uid="Modding.IModSettings.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_OnBeforeSerialize.md&amp;value=---%0Auid%3A%20Modding.IModSettings.OnBeforeSerialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L143">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_OnBeforeSerialize_" data-uid="Modding.IModSettings.OnBeforeSerialize*"></a>
+  <h4 id="Modding_IModSettings_OnBeforeSerialize" data-uid="Modding.IModSettings.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_SetBool_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.SetBool(System.Boolean%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L107">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_SetBool_" data-uid="Modding.IModSettings.SetBool*"></a>
+  <h4 id="Modding_IModSettings_SetBool_System_Boolean_System_String_" data-uid="Modding.IModSettings.SetBool(System.Boolean,System.String)">SetBool(Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Handles setting of a value in the BoolValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBool(bool value, string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Set</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of the Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_SetFloat_System_Single_System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.SetFloat(System.Single%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L133">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_SetFloat_" data-uid="Modding.IModSettings.SetFloat*"></a>
+  <h4 id="Modding_IModSettings_SetFloat_System_Single_System_String_" data-uid="Modding.IModSettings.SetFloat(System.Single,System.String)">SetFloat(Single, String)</h4>
+  <div class="markdown level1 summary"><p>Handles setting of a value in the FloatValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFloat(float value, string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Set</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of the Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_SetInt_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.SetInt(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L80">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_SetInt_" data-uid="Modding.IModSettings.SetInt*"></a>
+  <h4 id="Modding_IModSettings_SetInt_System_Int32_System_String_" data-uid="Modding.IModSettings.SetInt(System.Int32,System.String)">SetInt(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Handles setting of a value in the IntValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInt(int value, string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Set</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of the Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_SetSettings_Modding_IModSettings_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.SetSettings(Modding.IModSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L29">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_SetSettings_" data-uid="Modding.IModSettings.SetSettings*"></a>
+  <h4 id="Modding_IModSettings_SetSettings_Modding_IModSettings_" data-uid="Modding.IModSettings.SetSettings(Modding.IModSettings)">SetSettings(IModSettings)</h4>
+  <div class="markdown level1 summary"><p>Hydrates the classes dictionaries with incoming data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSettings(IModSettings incommingSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Modding.IModSettings.html">IModSettings</a></td>
+        <td><span class="parametername">incommingSettings</span></td>
+        <td><p>Incoming Settings</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings_SetString_System_String_System_String_.md&amp;value=---%0Auid%3A%20Modding.IModSettings.SetString(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L54">View Source</a>
+  </span>
+  <a id="Modding_IModSettings_SetString_" data-uid="Modding.IModSettings.SetString*"></a>
+  <h4 id="Modding_IModSettings_SetString_System_String_System_String_" data-uid="Modding.IModSettings.SetString(System.String,System.String)">SetString(String, String)</h4>
+  <div class="markdown level1 summary"><p>Handles setting of a value in the StringValues Dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetString(string value, string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to Set</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Compiler Generated Name of the Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.ISerializationCallbackReceiver</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/gh-pages/apiSpec/new?filename=Modding_IModSettings.md&amp;value=---%0Auid%3A%20Modding.IModSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/IModSettings.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2017 SeanPR, Wyza, MyEyes <br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
