@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Preface | Hollow Knight Modding API </title>
+    <title>Hollow Knight Modding API | Hollow Knight Modding API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Preface | Hollow Knight Modding API ">
+    <meta name="title" content="Hollow Knight Modding API | Hollow Knight Modding API ">
     <meta name="generator" content="docfx 2.27.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,20 +60,17 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="preface">Preface</h1>
+<h1 id="hollow-knight-modding-api">Hollow Knight Modding API</h1>
 
-<p>Hollow Knight Modding generally requires changing the game&#39;s code using an assembly editor such as dnSpy.   While this works, it means that each time the game releases a new version, all mods had to be recoded by hand.  The Hollow Knight API aims to remove this requirement by exposing hooks to perform most needed operations without having to rewrite decompiled code.</p>
-<p>We use the MonoMod patcher to greatly reduce the effort in patching the assembly.  Go check it out! <a href="https://github.com/0x0ade/MonoMod">https://github.com/0x0ade/MonoMod</a></p>
-<h1 id="building-the-api">Building The API</h1>
-<p>Building the API is fairly straightforward.</p>
-<ol>
-<li>Clone this!</li>
-<li>Go to <code>%HollowKnightGameInstallPath%/hollow_knight_Data/Managed/</code> and copy it&#39;s contents to the <code>Vanilla</code> folder in this repository. </li>
-<li>Open the solution in Visual Studio</li>
-<li>Build.  The patched assembly should be in <code>RepoPath/OutputFinal/hollow_knight_Data/Managed/</code> (There is also a zip file in <code>RepoPath/ModdingAPI.zip</code> ready to upload to Google Drive)</li>
-<li>Copy Assembly-CSharp.* to <code>%HollowKnightGameInstallPath%/hollow_knight_Data/Managed/</code></li>
-</ol>
-</article>
+<p>This is a simple modding API used mainly for compatibility between mods. It does nothing on its own, but is required for several mods to run.</p>
+<h1 id="how-to-install">How To Install</h1>
+<p>Navigate to your Hollow Knight Game Install folder.</p>
+<pre><code>Steam: C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\
+GoG:
+</code></pre><p>Copy Everything in this Zip file into the game&#39;s folder.  When prompted to Overwrite files, say yes.</p>
+<h1 id="how-to-uninstall">How To Uninstall</h1>
+<pre><code>Steam: Right Click on Hollow Knight-&gt;Properties-&gt;Local Files-&gt;Verify Integrity of Game Files
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -81,7 +78,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/readme.moddingapi.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

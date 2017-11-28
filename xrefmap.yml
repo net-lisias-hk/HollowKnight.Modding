@@ -109,6 +109,12 @@ references:
   commentId: T:Modding.FocusCostHandler
   fullName: Modding.FocusCostHandler
   nameWithType: FocusCostHandler
+- uid: Modding.GameObjectHandler
+  name: GameObjectHandler
+  href: api/Modding.GameObjectHandler.html
+  commentId: T:Modding.GameObjectHandler
+  fullName: Modding.GameObjectHandler
+  nameWithType: GameObjectHandler
 - uid: Modding.GetBoolProxy
   name: GetBoolProxy
   href: api/Modding.GetBoolProxy.html
@@ -819,36 +825,12 @@ references:
   commentId: T:Modding.ModHooks
   fullName: Modding.ModHooks
   nameWithType: ModHooks
-- uid: Modding.ModHooks.AfterAttack(GlobalEnums.AttackDirection)
-  name: AfterAttack(AttackDirection)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_AfterAttack_GlobalEnums_AttackDirection_
-  commentId: M:Modding.ModHooks.AfterAttack(GlobalEnums.AttackDirection)
-  fullName: Modding.ModHooks.AfterAttack(GlobalEnums.AttackDirection)
-  nameWithType: ModHooks.AfterAttack(AttackDirection)
-- uid: Modding.ModHooks.AfterAttack*
-  name: AfterAttack
-  href: api/Modding.ModHooks.html#Modding_ModHooks_AfterAttack_
-  commentId: Overload:Modding.ModHooks.AfterAttack
-  fullName: Modding.ModHooks.AfterAttack
-  nameWithType: ModHooks.AfterAttack
 - uid: Modding.ModHooks.AfterAttackHook
   name: AfterAttackHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_AfterAttackHook
   commentId: E:Modding.ModHooks.AfterAttackHook
   fullName: Modding.ModHooks.AfterAttackHook
   nameWithType: ModHooks.AfterAttackHook
-- uid: Modding.ModHooks.AfterNewPlayerData(PlayerData)
-  name: AfterNewPlayerData(PlayerData)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_AfterNewPlayerData_PlayerData_
-  commentId: M:Modding.ModHooks.AfterNewPlayerData(PlayerData)
-  fullName: Modding.ModHooks.AfterNewPlayerData(PlayerData)
-  nameWithType: ModHooks.AfterNewPlayerData(PlayerData)
-- uid: Modding.ModHooks.AfterNewPlayerData*
-  name: AfterNewPlayerData
-  href: api/Modding.ModHooks.html#Modding_ModHooks_AfterNewPlayerData_
-  commentId: Overload:Modding.ModHooks.AfterNewPlayerData
-  fullName: Modding.ModHooks.AfterNewPlayerData
-  nameWithType: ModHooks.AfterNewPlayerData
 - uid: Modding.ModHooks.AfterSaveGameClearHook
   name: AfterSaveGameClearHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_AfterSaveGameClearHook
@@ -861,18 +843,6 @@ references:
   commentId: E:Modding.ModHooks.AfterSavegameLoadHook
   fullName: Modding.ModHooks.AfterSavegameLoadHook
   nameWithType: ModHooks.AfterSavegameLoadHook
-- uid: Modding.ModHooks.AfterTakeDamage(System.Int32,System.Int32)
-  name: AfterTakeDamage(Int32, Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_AfterTakeDamage_System_Int32_System_Int32_
-  commentId: M:Modding.ModHooks.AfterTakeDamage(System.Int32,System.Int32)
-  fullName: Modding.ModHooks.AfterTakeDamage(System.Int32, System.Int32)
-  nameWithType: ModHooks.AfterTakeDamage(Int32, Int32)
-- uid: Modding.ModHooks.AfterTakeDamage*
-  name: AfterTakeDamage
-  href: api/Modding.ModHooks.html#Modding_ModHooks_AfterTakeDamage_
-  commentId: Overload:Modding.ModHooks.AfterTakeDamage
-  fullName: Modding.ModHooks.AfterTakeDamage
-  nameWithType: ModHooks.AfterTakeDamage
 - uid: Modding.ModHooks.AfterTakeDamageHook
   name: AfterTakeDamageHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_AfterTakeDamageHook
@@ -897,18 +867,6 @@ references:
   commentId: E:Modding.ModHooks.BeforeSavegameSaveHook
   fullName: Modding.ModHooks.BeforeSavegameSaveHook
   nameWithType: ModHooks.BeforeSavegameSaveHook
-- uid: Modding.ModHooks.BeforeSceneLoad(System.String)
-  name: BeforeSceneLoad(String)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_BeforeSceneLoad_System_String_
-  commentId: M:Modding.ModHooks.BeforeSceneLoad(System.String)
-  fullName: Modding.ModHooks.BeforeSceneLoad(System.String)
-  nameWithType: ModHooks.BeforeSceneLoad(String)
-- uid: Modding.ModHooks.BeforeSceneLoad*
-  name: BeforeSceneLoad
-  href: api/Modding.ModHooks.html#Modding_ModHooks_BeforeSceneLoad_
-  commentId: Overload:Modding.ModHooks.BeforeSceneLoad
-  fullName: Modding.ModHooks.BeforeSceneLoad
-  nameWithType: ModHooks.BeforeSceneLoad
 - uid: Modding.ModHooks.BeforeSceneLoadHook
   name: BeforeSceneLoadHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_BeforeSceneLoadHook
@@ -951,18 +909,6 @@ references:
   commentId: E:Modding.ModHooks.DashVectorHook
   fullName: Modding.ModHooks.DashVectorHook
   nameWithType: ModHooks.DashVectorHook
-- uid: Modding.ModHooks.DashVelocityChange
-  name: DashVelocityChange()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_DashVelocityChange
-  commentId: M:Modding.ModHooks.DashVelocityChange
-  fullName: Modding.ModHooks.DashVelocityChange()
-  nameWithType: ModHooks.DashVelocityChange()
-- uid: Modding.ModHooks.DashVelocityChange*
-  name: DashVelocityChange
-  href: api/Modding.ModHooks.html#Modding_ModHooks_DashVelocityChange_
-  commentId: Overload:Modding.ModHooks.DashVelocityChange
-  fullName: Modding.ModHooks.DashVelocityChange
-  nameWithType: ModHooks.DashVelocityChange
 - uid: Modding.ModHooks.DoAttackHook
   name: DoAttackHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_DoAttackHook
@@ -975,54 +921,18 @@ references:
   commentId: E:Modding.ModHooks.FocusCostHook
   fullName: Modding.ModHooks.FocusCostHook
   nameWithType: ModHooks.FocusCostHook
-- uid: Modding.ModHooks.GetPlayerBool(System.String)
-  name: GetPlayerBool(String)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_GetPlayerBool_System_String_
-  commentId: M:Modding.ModHooks.GetPlayerBool(System.String)
-  fullName: Modding.ModHooks.GetPlayerBool(System.String)
-  nameWithType: ModHooks.GetPlayerBool(String)
-- uid: Modding.ModHooks.GetPlayerBool*
-  name: GetPlayerBool
-  href: api/Modding.ModHooks.html#Modding_ModHooks_GetPlayerBool_
-  commentId: Overload:Modding.ModHooks.GetPlayerBool
-  fullName: Modding.ModHooks.GetPlayerBool
-  nameWithType: ModHooks.GetPlayerBool
 - uid: Modding.ModHooks.GetPlayerBoolHook
   name: GetPlayerBoolHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_GetPlayerBoolHook
   commentId: E:Modding.ModHooks.GetPlayerBoolHook
   fullName: Modding.ModHooks.GetPlayerBoolHook
   nameWithType: ModHooks.GetPlayerBoolHook
-- uid: Modding.ModHooks.GetPlayerInt(System.String)
-  name: GetPlayerInt(String)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_GetPlayerInt_System_String_
-  commentId: M:Modding.ModHooks.GetPlayerInt(System.String)
-  fullName: Modding.ModHooks.GetPlayerInt(System.String)
-  nameWithType: ModHooks.GetPlayerInt(String)
-- uid: Modding.ModHooks.GetPlayerInt*
-  name: GetPlayerInt
-  href: api/Modding.ModHooks.html#Modding_ModHooks_GetPlayerInt_
-  commentId: Overload:Modding.ModHooks.GetPlayerInt
-  fullName: Modding.ModHooks.GetPlayerInt
-  nameWithType: ModHooks.GetPlayerInt
 - uid: Modding.ModHooks.GetPlayerIntHook
   name: GetPlayerIntHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_GetPlayerIntHook
   commentId: E:Modding.ModHooks.GetPlayerIntHook
   fullName: Modding.ModHooks.GetPlayerIntHook
   nameWithType: ModHooks.GetPlayerIntHook
-- uid: Modding.ModHooks.GetSaveFileName(System.Int32)
-  name: GetSaveFileName(Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_GetSaveFileName_System_Int32_
-  commentId: M:Modding.ModHooks.GetSaveFileName(System.Int32)
-  fullName: Modding.ModHooks.GetSaveFileName(System.Int32)
-  nameWithType: ModHooks.GetSaveFileName(Int32)
-- uid: Modding.ModHooks.GetSaveFileName*
-  name: GetSaveFileName
-  href: api/Modding.ModHooks.html#Modding_ModHooks_GetSaveFileName_
-  commentId: Overload:Modding.ModHooks.GetSaveFileName
-  fullName: Modding.ModHooks.GetSaveFileName
-  nameWithType: ModHooks.GetSaveFileName
 - uid: Modding.ModHooks.GetSaveFileNameHook
   name: GetSaveFileNameHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_GetSaveFileNameHook
@@ -1047,18 +957,6 @@ references:
   commentId: Overload:Modding.ModHooks.Instance
   fullName: Modding.ModHooks.Instance
   nameWithType: ModHooks.Instance
-- uid: Modding.ModHooks.LanguageGet(System.String,System.String)
-  name: LanguageGet(String, String)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_LanguageGet_System_String_System_String_
-  commentId: M:Modding.ModHooks.LanguageGet(System.String,System.String)
-  fullName: Modding.ModHooks.LanguageGet(System.String, System.String)
-  nameWithType: ModHooks.LanguageGet(String, String)
-- uid: Modding.ModHooks.LanguageGet*
-  name: LanguageGet
-  href: api/Modding.ModHooks.html#Modding_ModHooks_LanguageGet_
-  commentId: Overload:Modding.ModHooks.LanguageGet
-  fullName: Modding.ModHooks.LanguageGet
-  nameWithType: ModHooks.LanguageGet
 - uid: Modding.ModHooks.LanguageGetHook
   name: LanguageGetHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_LanguageGetHook
@@ -1071,18 +969,12 @@ references:
   commentId: F:Modding.ModHooks.LoadedMods
   fullName: Modding.ModHooks.LoadedMods
   nameWithType: ModHooks.LoadedMods
-- uid: Modding.ModHooks.LoadGlobalSettings
-  name: LoadGlobalSettings()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_LoadGlobalSettings
-  commentId: M:Modding.ModHooks.LoadGlobalSettings
-  fullName: Modding.ModHooks.LoadGlobalSettings()
-  nameWithType: ModHooks.LoadGlobalSettings()
-- uid: Modding.ModHooks.LoadGlobalSettings*
-  name: LoadGlobalSettings
-  href: api/Modding.ModHooks.html#Modding_ModHooks_LoadGlobalSettings_
-  commentId: Overload:Modding.ModHooks.LoadGlobalSettings
-  fullName: Modding.ModHooks.LoadGlobalSettings
-  nameWithType: ModHooks.LoadGlobalSettings
+- uid: Modding.ModHooks.LoadedModsWithVersions
+  name: LoadedModsWithVersions
+  href: api/Modding.ModHooks.html#Modding_ModHooks_LoadedModsWithVersions
+  commentId: F:Modding.ModHooks.LoadedModsWithVersions
+  fullName: Modding.ModHooks.LoadedModsWithVersions
+  nameWithType: ModHooks.LoadedModsWithVersions
 - uid: Modding.ModHooks.Logger
   name: Logger
   href: api/Modding.ModHooks.html#Modding_ModHooks_Logger
@@ -1125,273 +1017,18 @@ references:
   commentId: E:Modding.ModHooks.NewPlayerDataHook
   fullName: Modding.ModHooks.NewPlayerDataHook
   nameWithType: ModHooks.NewPlayerDataHook
-- uid: Modding.ModHooks.OnAfterSaveGameClear(System.Int32)
-  name: OnAfterSaveGameClear(Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnAfterSaveGameClear_System_Int32_
-  commentId: M:Modding.ModHooks.OnAfterSaveGameClear(System.Int32)
-  fullName: Modding.ModHooks.OnAfterSaveGameClear(System.Int32)
-  nameWithType: ModHooks.OnAfterSaveGameClear(Int32)
-- uid: Modding.ModHooks.OnAfterSaveGameClear*
-  name: OnAfterSaveGameClear
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnAfterSaveGameClear_
-  commentId: Overload:Modding.ModHooks.OnAfterSaveGameClear
-  fullName: Modding.ModHooks.OnAfterSaveGameClear
-  nameWithType: ModHooks.OnAfterSaveGameClear
-- uid: Modding.ModHooks.OnAfterSaveGameLoad(Modding.Patches.SaveGameData)
-  name: OnAfterSaveGameLoad(SaveGameData)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnAfterSaveGameLoad_Modding_Patches_SaveGameData_
-  commentId: M:Modding.ModHooks.OnAfterSaveGameLoad(Modding.Patches.SaveGameData)
-  fullName: Modding.ModHooks.OnAfterSaveGameLoad(Modding.Patches.SaveGameData)
-  nameWithType: ModHooks.OnAfterSaveGameLoad(SaveGameData)
-- uid: Modding.ModHooks.OnAfterSaveGameLoad*
-  name: OnAfterSaveGameLoad
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnAfterSaveGameLoad_
-  commentId: Overload:Modding.ModHooks.OnAfterSaveGameLoad
-  fullName: Modding.ModHooks.OnAfterSaveGameLoad
-  nameWithType: ModHooks.OnAfterSaveGameLoad
-- uid: Modding.ModHooks.OnApplicationQuit
-  name: OnApplicationQuit()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnApplicationQuit
-  commentId: M:Modding.ModHooks.OnApplicationQuit
-  fullName: Modding.ModHooks.OnApplicationQuit()
-  nameWithType: ModHooks.OnApplicationQuit()
-- uid: Modding.ModHooks.OnApplicationQuit*
-  name: OnApplicationQuit
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnApplicationQuit_
-  commentId: Overload:Modding.ModHooks.OnApplicationQuit
-  fullName: Modding.ModHooks.OnApplicationQuit
-  nameWithType: ModHooks.OnApplicationQuit
-- uid: Modding.ModHooks.OnAttack(GlobalEnums.AttackDirection)
-  name: OnAttack(AttackDirection)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnAttack_GlobalEnums_AttackDirection_
-  commentId: M:Modding.ModHooks.OnAttack(GlobalEnums.AttackDirection)
-  fullName: Modding.ModHooks.OnAttack(GlobalEnums.AttackDirection)
-  nameWithType: ModHooks.OnAttack(AttackDirection)
-- uid: Modding.ModHooks.OnAttack*
-  name: OnAttack
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnAttack_
-  commentId: Overload:Modding.ModHooks.OnAttack
-  fullName: Modding.ModHooks.OnAttack
-  nameWithType: ModHooks.OnAttack
-- uid: Modding.ModHooks.OnBeforeSaveGameSave(Modding.Patches.SaveGameData)
-  name: OnBeforeSaveGameSave(SaveGameData)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnBeforeSaveGameSave_Modding_Patches_SaveGameData_
-  commentId: M:Modding.ModHooks.OnBeforeSaveGameSave(Modding.Patches.SaveGameData)
-  fullName: Modding.ModHooks.OnBeforeSaveGameSave(Modding.Patches.SaveGameData)
-  nameWithType: ModHooks.OnBeforeSaveGameSave(SaveGameData)
-- uid: Modding.ModHooks.OnBeforeSaveGameSave*
-  name: OnBeforeSaveGameSave
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnBeforeSaveGameSave_
-  commentId: Overload:Modding.ModHooks.OnBeforeSaveGameSave
-  fullName: Modding.ModHooks.OnBeforeSaveGameSave
-  nameWithType: ModHooks.OnBeforeSaveGameSave
-- uid: Modding.ModHooks.OnBlueHealth
-  name: OnBlueHealth()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnBlueHealth
-  commentId: M:Modding.ModHooks.OnBlueHealth
-  fullName: Modding.ModHooks.OnBlueHealth()
-  nameWithType: ModHooks.OnBlueHealth()
-- uid: Modding.ModHooks.OnBlueHealth*
-  name: OnBlueHealth
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnBlueHealth_
-  commentId: Overload:Modding.ModHooks.OnBlueHealth
-  fullName: Modding.ModHooks.OnBlueHealth
-  nameWithType: ModHooks.OnBlueHealth
-- uid: Modding.ModHooks.OnCharmUpdate
-  name: OnCharmUpdate()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnCharmUpdate
-  commentId: M:Modding.ModHooks.OnCharmUpdate
-  fullName: Modding.ModHooks.OnCharmUpdate()
-  nameWithType: ModHooks.OnCharmUpdate()
-- uid: Modding.ModHooks.OnCharmUpdate*
-  name: OnCharmUpdate
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnCharmUpdate_
-  commentId: Overload:Modding.ModHooks.OnCharmUpdate
-  fullName: Modding.ModHooks.OnCharmUpdate
-  nameWithType: ModHooks.OnCharmUpdate
-- uid: Modding.ModHooks.OnColliderCreate(UnityEngine.GameObject)
-  name: OnColliderCreate(GameObject)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnColliderCreate_UnityEngine_GameObject_
-  commentId: M:Modding.ModHooks.OnColliderCreate(UnityEngine.GameObject)
-  fullName: Modding.ModHooks.OnColliderCreate(UnityEngine.GameObject)
-  nameWithType: ModHooks.OnColliderCreate(GameObject)
-- uid: Modding.ModHooks.OnColliderCreate*
-  name: OnColliderCreate
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnColliderCreate_
-  commentId: Overload:Modding.ModHooks.OnColliderCreate
-  fullName: Modding.ModHooks.OnColliderCreate
-  nameWithType: ModHooks.OnColliderCreate
-- uid: Modding.ModHooks.OnCursor
-  name: OnCursor()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnCursor
-  commentId: M:Modding.ModHooks.OnCursor
-  fullName: Modding.ModHooks.OnCursor()
-  nameWithType: ModHooks.OnCursor()
-- uid: Modding.ModHooks.OnCursor*
-  name: OnCursor
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnCursor_
-  commentId: Overload:Modding.ModHooks.OnCursor
-  fullName: Modding.ModHooks.OnCursor
-  nameWithType: ModHooks.OnCursor
-- uid: Modding.ModHooks.OnDashPressed
-  name: OnDashPressed()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnDashPressed
-  commentId: M:Modding.ModHooks.OnDashPressed
-  fullName: Modding.ModHooks.OnDashPressed()
-  nameWithType: ModHooks.OnDashPressed()
-- uid: Modding.ModHooks.OnDashPressed*
-  name: OnDashPressed
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnDashPressed_
-  commentId: Overload:Modding.ModHooks.OnDashPressed
-  fullName: Modding.ModHooks.OnDashPressed
-  nameWithType: ModHooks.OnDashPressed
-- uid: Modding.ModHooks.OnDoAttack
-  name: OnDoAttack()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnDoAttack
-  commentId: M:Modding.ModHooks.OnDoAttack
-  fullName: Modding.ModHooks.OnDoAttack()
-  nameWithType: ModHooks.OnDoAttack()
-- uid: Modding.ModHooks.OnDoAttack*
-  name: OnDoAttack
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnDoAttack_
-  commentId: Overload:Modding.ModHooks.OnDoAttack
-  fullName: Modding.ModHooks.OnDoAttack
-  nameWithType: ModHooks.OnDoAttack
-- uid: Modding.ModHooks.OnFocusCost
-  name: OnFocusCost()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnFocusCost
-  commentId: M:Modding.ModHooks.OnFocusCost
-  fullName: Modding.ModHooks.OnFocusCost()
-  nameWithType: ModHooks.OnFocusCost()
-- uid: Modding.ModHooks.OnFocusCost*
-  name: OnFocusCost
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnFocusCost_
-  commentId: Overload:Modding.ModHooks.OnFocusCost
-  fullName: Modding.ModHooks.OnFocusCost
-  nameWithType: ModHooks.OnFocusCost
-- uid: Modding.ModHooks.OnHeroUpdate
-  name: OnHeroUpdate()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnHeroUpdate
-  commentId: M:Modding.ModHooks.OnHeroUpdate
-  fullName: Modding.ModHooks.OnHeroUpdate()
-  nameWithType: ModHooks.OnHeroUpdate()
-- uid: Modding.ModHooks.OnHeroUpdate*
-  name: OnHeroUpdate
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnHeroUpdate_
-  commentId: Overload:Modding.ModHooks.OnHeroUpdate
-  fullName: Modding.ModHooks.OnHeroUpdate
-  nameWithType: ModHooks.OnHeroUpdate
-- uid: Modding.ModHooks.OnNewGame
-  name: OnNewGame()
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnNewGame
-  commentId: M:Modding.ModHooks.OnNewGame
-  fullName: Modding.ModHooks.OnNewGame()
-  nameWithType: ModHooks.OnNewGame()
-- uid: Modding.ModHooks.OnNewGame*
-  name: OnNewGame
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnNewGame_
-  commentId: Overload:Modding.ModHooks.OnNewGame
-  fullName: Modding.ModHooks.OnNewGame
-  nameWithType: ModHooks.OnNewGame
-- uid: Modding.ModHooks.OnSavegameClear(System.Int32)
-  name: OnSavegameClear(Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSavegameClear_System_Int32_
-  commentId: M:Modding.ModHooks.OnSavegameClear(System.Int32)
-  fullName: Modding.ModHooks.OnSavegameClear(System.Int32)
-  nameWithType: ModHooks.OnSavegameClear(Int32)
-- uid: Modding.ModHooks.OnSavegameClear*
-  name: OnSavegameClear
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSavegameClear_
-  commentId: Overload:Modding.ModHooks.OnSavegameClear
-  fullName: Modding.ModHooks.OnSavegameClear
-  nameWithType: ModHooks.OnSavegameClear
-- uid: Modding.ModHooks.OnSavegameLoad(System.Int32)
-  name: OnSavegameLoad(Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSavegameLoad_System_Int32_
-  commentId: M:Modding.ModHooks.OnSavegameLoad(System.Int32)
-  fullName: Modding.ModHooks.OnSavegameLoad(System.Int32)
-  nameWithType: ModHooks.OnSavegameLoad(Int32)
-- uid: Modding.ModHooks.OnSavegameLoad*
-  name: OnSavegameLoad
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSavegameLoad_
-  commentId: Overload:Modding.ModHooks.OnSavegameLoad
-  fullName: Modding.ModHooks.OnSavegameLoad
-  nameWithType: ModHooks.OnSavegameLoad
-- uid: Modding.ModHooks.OnSavegameSave(System.Int32)
-  name: OnSavegameSave(Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSavegameSave_System_Int32_
-  commentId: M:Modding.ModHooks.OnSavegameSave(System.Int32)
-  fullName: Modding.ModHooks.OnSavegameSave(System.Int32)
-  nameWithType: ModHooks.OnSavegameSave(Int32)
-- uid: Modding.ModHooks.OnSavegameSave*
-  name: OnSavegameSave
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSavegameSave_
-  commentId: Overload:Modding.ModHooks.OnSavegameSave
-  fullName: Modding.ModHooks.OnSavegameSave
-  nameWithType: ModHooks.OnSavegameSave
-- uid: Modding.ModHooks.OnSceneChanged(System.String)
-  name: OnSceneChanged(String)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSceneChanged_System_String_
-  commentId: M:Modding.ModHooks.OnSceneChanged(System.String)
-  fullName: Modding.ModHooks.OnSceneChanged(System.String)
-  nameWithType: ModHooks.OnSceneChanged(String)
-- uid: Modding.ModHooks.OnSceneChanged*
-  name: OnSceneChanged
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSceneChanged_
-  commentId: Overload:Modding.ModHooks.OnSceneChanged
-  fullName: Modding.ModHooks.OnSceneChanged
-  nameWithType: ModHooks.OnSceneChanged
-- uid: Modding.ModHooks.OnSlashHit(UnityEngine.Collider2D,UnityEngine.GameObject)
-  name: OnSlashHit(Collider2D, GameObject)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSlashHit_UnityEngine_Collider2D_UnityEngine_GameObject_
-  commentId: M:Modding.ModHooks.OnSlashHit(UnityEngine.Collider2D,UnityEngine.GameObject)
-  fullName: Modding.ModHooks.OnSlashHit(UnityEngine.Collider2D, UnityEngine.GameObject)
-  nameWithType: ModHooks.OnSlashHit(Collider2D, GameObject)
-- uid: Modding.ModHooks.OnSlashHit*
-  name: OnSlashHit
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSlashHit_
-  commentId: Overload:Modding.ModHooks.OnSlashHit
-  fullName: Modding.ModHooks.OnSlashHit
-  nameWithType: ModHooks.OnSlashHit
-- uid: Modding.ModHooks.OnSoulGain(System.Int32)
-  name: OnSoulGain(Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSoulGain_System_Int32_
-  commentId: M:Modding.ModHooks.OnSoulGain(System.Int32)
-  fullName: Modding.ModHooks.OnSoulGain(System.Int32)
-  nameWithType: ModHooks.OnSoulGain(Int32)
-- uid: Modding.ModHooks.OnSoulGain*
-  name: OnSoulGain
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnSoulGain_
-  commentId: Overload:Modding.ModHooks.OnSoulGain
-  fullName: Modding.ModHooks.OnSoulGain
-  nameWithType: ModHooks.OnSoulGain
-- uid: Modding.ModHooks.OnTakeDamage(System.Int32@,System.Int32)
-  name: OnTakeDamage(ref Int32, Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnTakeDamage_System_Int32__System_Int32_
-  commentId: M:Modding.ModHooks.OnTakeDamage(System.Int32@,System.Int32)
-  name.vb: OnTakeDamage(ByRef Int32, Int32)
-  fullName: Modding.ModHooks.OnTakeDamage(ref System.Int32, System.Int32)
-  fullName.vb: Modding.ModHooks.OnTakeDamage(ByRef System.Int32, System.Int32)
-  nameWithType: ModHooks.OnTakeDamage(ref Int32, Int32)
-  nameWithType.vb: ModHooks.OnTakeDamage(ByRef Int32, Int32)
-- uid: Modding.ModHooks.OnTakeDamage*
-  name: OnTakeDamage
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnTakeDamage_
-  commentId: Overload:Modding.ModHooks.OnTakeDamage
-  fullName: Modding.ModHooks.OnTakeDamage
-  nameWithType: ModHooks.OnTakeDamage
-- uid: Modding.ModHooks.OnTakeHealth(System.Int32)
-  name: OnTakeHealth(Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnTakeHealth_System_Int32_
-  commentId: M:Modding.ModHooks.OnTakeHealth(System.Int32)
-  fullName: Modding.ModHooks.OnTakeHealth(System.Int32)
-  nameWithType: ModHooks.OnTakeHealth(Int32)
-- uid: Modding.ModHooks.OnTakeHealth*
-  name: OnTakeHealth
-  href: api/Modding.ModHooks.html#Modding_ModHooks_OnTakeHealth_
-  commentId: Overload:Modding.ModHooks.OnTakeHealth
-  fullName: Modding.ModHooks.OnTakeHealth
-  nameWithType: ModHooks.OnTakeHealth
+- uid: Modding.ModHooks.ObjectPoolSpawnHook
+  name: ObjectPoolSpawnHook
+  href: api/Modding.ModHooks.html#Modding_ModHooks_ObjectPoolSpawnHook
+  commentId: E:Modding.ModHooks.ObjectPoolSpawnHook
+  fullName: Modding.ModHooks.ObjectPoolSpawnHook
+  nameWithType: ModHooks.ObjectPoolSpawnHook
+- uid: Modding.ModHooks.OnGetEventSenderHook
+  name: OnGetEventSenderHook
+  href: api/Modding.ModHooks.html#Modding_ModHooks_OnGetEventSenderHook
+  commentId: E:Modding.ModHooks.OnGetEventSenderHook
+  fullName: Modding.ModHooks.OnGetEventSenderHook
+  nameWithType: ModHooks.OnGetEventSenderHook
 - uid: Modding.ModHooks.SavegameClearHook
   name: SavegameClearHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_SavegameClearHook
@@ -1416,36 +1053,12 @@ references:
   commentId: E:Modding.ModHooks.SceneChanged
   fullName: Modding.ModHooks.SceneChanged
   nameWithType: ModHooks.SceneChanged
-- uid: Modding.ModHooks.SetPlayerBool(System.String,System.Boolean)
-  name: SetPlayerBool(String, Boolean)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_SetPlayerBool_System_String_System_Boolean_
-  commentId: M:Modding.ModHooks.SetPlayerBool(System.String,System.Boolean)
-  fullName: Modding.ModHooks.SetPlayerBool(System.String, System.Boolean)
-  nameWithType: ModHooks.SetPlayerBool(String, Boolean)
-- uid: Modding.ModHooks.SetPlayerBool*
-  name: SetPlayerBool
-  href: api/Modding.ModHooks.html#Modding_ModHooks_SetPlayerBool_
-  commentId: Overload:Modding.ModHooks.SetPlayerBool
-  fullName: Modding.ModHooks.SetPlayerBool
-  nameWithType: ModHooks.SetPlayerBool
 - uid: Modding.ModHooks.SetPlayerBoolHook
   name: SetPlayerBoolHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_SetPlayerBoolHook
   commentId: E:Modding.ModHooks.SetPlayerBoolHook
   fullName: Modding.ModHooks.SetPlayerBoolHook
   nameWithType: ModHooks.SetPlayerBoolHook
-- uid: Modding.ModHooks.SetPlayerInt(System.String,System.Int32)
-  name: SetPlayerInt(String, Int32)
-  href: api/Modding.ModHooks.html#Modding_ModHooks_SetPlayerInt_System_String_System_Int32_
-  commentId: M:Modding.ModHooks.SetPlayerInt(System.String,System.Int32)
-  fullName: Modding.ModHooks.SetPlayerInt(System.String, System.Int32)
-  nameWithType: ModHooks.SetPlayerInt(String, Int32)
-- uid: Modding.ModHooks.SetPlayerInt*
-  name: SetPlayerInt
-  href: api/Modding.ModHooks.html#Modding_ModHooks_SetPlayerInt_
-  commentId: Overload:Modding.ModHooks.SetPlayerInt
-  fullName: Modding.ModHooks.SetPlayerInt
-  nameWithType: ModHooks.SetPlayerInt
 - uid: Modding.ModHooks.SetPlayerIntHook
   name: SetPlayerIntHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_SetPlayerIntHook
@@ -1542,6 +1155,48 @@ references:
   commentId: T:Modding.NewPlayerDataHandler
   fullName: Modding.NewPlayerDataHandler
   nameWithType: NewPlayerDataHandler
+- uid: Modding.NotifyDictionary`2
+  name: NotifyDictionary<TKey, TValue>
+  href: api/Modding.NotifyDictionary-2.html
+  commentId: T:Modding.NotifyDictionary`2
+  name.vb: NotifyDictionary(Of TKey, TValue)
+  fullName: Modding.NotifyDictionary<TKey, TValue>
+  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue)
+  nameWithType: NotifyDictionary<TKey, TValue>
+  nameWithType.vb: NotifyDictionary(Of TKey, TValue)
+- uid: Modding.NotifyDictionary`2.Add(`0,`1)
+  name: Add(TKey, TValue)
+  href: api/Modding.NotifyDictionary-2.html#Modding_NotifyDictionary_2_Add__0__1_
+  commentId: M:Modding.NotifyDictionary`2.Add(`0,`1)
+  fullName: Modding.NotifyDictionary<TKey, TValue>.Add(TKey, TValue)
+  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).Add(TKey, TValue)
+  nameWithType: NotifyDictionary<TKey, TValue>.Add(TKey, TValue)
+  nameWithType.vb: NotifyDictionary(Of TKey, TValue).Add(TKey, TValue)
+- uid: Modding.NotifyDictionary`2.Add*
+  name: Add
+  href: api/Modding.NotifyDictionary-2.html#Modding_NotifyDictionary_2_Add_
+  commentId: Overload:Modding.NotifyDictionary`2.Add
+  fullName: Modding.NotifyDictionary<TKey, TValue>.Add
+  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).Add
+  nameWithType: NotifyDictionary<TKey, TValue>.Add
+  nameWithType.vb: NotifyDictionary(Of TKey, TValue).Add
+- uid: Modding.NotifyDictionary`2.OnAddHandler
+  name: NotifyDictionary<TKey, TValue>.OnAddHandler
+  href: api/Modding.NotifyDictionary-2.OnAddHandler.html
+  commentId: T:Modding.NotifyDictionary`2.OnAddHandler
+  name.vb: NotifyDictionary(Of TKey, TValue).OnAddHandler
+  fullName: Modding.NotifyDictionary<TKey, TValue>.OnAddHandler
+  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).OnAddHandler
+  nameWithType: NotifyDictionary<TKey, TValue>.OnAddHandler
+  nameWithType.vb: NotifyDictionary(Of TKey, TValue).OnAddHandler
+- uid: Modding.NotifyDictionary`2.OnAddHook
+  name: OnAddHook
+  href: api/Modding.NotifyDictionary-2.html#Modding_NotifyDictionary_2_OnAddHook
+  commentId: E:Modding.NotifyDictionary`2.OnAddHook
+  fullName: Modding.NotifyDictionary<TKey, TValue>.OnAddHook
+  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).OnAddHook
+  nameWithType: NotifyDictionary<TKey, TValue>.OnAddHook
+  nameWithType.vb: NotifyDictionary(Of TKey, TValue).OnAddHook
 - uid: Modding.SavegameLoadHandler
   name: SavegameLoadHandler
   href: api/Modding.SavegameLoadHandler.html
