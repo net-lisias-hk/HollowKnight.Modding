@@ -133,6 +133,36 @@ references:
   commentId: T:Modding.GetSaveFileNameHandler
   fullName: Modding.GetSaveFileNameHandler
   nameWithType: GetSaveFileNameHandler
+- uid: Modding.GithubVersionHelper
+  name: GithubVersionHelper
+  href: api/Modding.GithubVersionHelper.html
+  commentId: T:Modding.GithubVersionHelper
+  fullName: Modding.GithubVersionHelper
+  nameWithType: GithubVersionHelper
+- uid: Modding.GithubVersionHelper.#ctor(System.String)
+  name: GithubVersionHelper(String)
+  href: api/Modding.GithubVersionHelper.html#Modding_GithubVersionHelper__ctor_System_String_
+  commentId: M:Modding.GithubVersionHelper.#ctor(System.String)
+  fullName: Modding.GithubVersionHelper.GithubVersionHelper(System.String)
+  nameWithType: GithubVersionHelper.GithubVersionHelper(String)
+- uid: Modding.GithubVersionHelper.#ctor*
+  name: GithubVersionHelper
+  href: api/Modding.GithubVersionHelper.html#Modding_GithubVersionHelper__ctor_
+  commentId: Overload:Modding.GithubVersionHelper.#ctor
+  fullName: Modding.GithubVersionHelper.GithubVersionHelper
+  nameWithType: GithubVersionHelper.GithubVersionHelper
+- uid: Modding.GithubVersionHelper.GetVersion
+  name: GetVersion()
+  href: api/Modding.GithubVersionHelper.html#Modding_GithubVersionHelper_GetVersion
+  commentId: M:Modding.GithubVersionHelper.GetVersion
+  fullName: Modding.GithubVersionHelper.GetVersion()
+  nameWithType: GithubVersionHelper.GetVersion()
+- uid: Modding.GithubVersionHelper.GetVersion*
+  name: GetVersion
+  href: api/Modding.GithubVersionHelper.html#Modding_GithubVersionHelper_GetVersion_
+  commentId: Overload:Modding.GithubVersionHelper.GetVersion
+  fullName: Modding.GithubVersionHelper.GetVersion
+  nameWithType: GithubVersionHelper.GetVersion
 - uid: Modding.HeroUpdateHandler
   name: HeroUpdateHandler
   href: api/Modding.HeroUpdateHandler.html
@@ -199,6 +229,78 @@ references:
   commentId: Overload:Modding.IMod.Initialize
   fullName: Modding.IMod.Initialize
   nameWithType: IMod.Initialize
+- uid: Modding.IMod.IsCurrent
+  name: IsCurrent()
+  href: api/Modding.IMod.html#Modding_IMod_IsCurrent
+  commentId: M:Modding.IMod.IsCurrent
+  fullName: Modding.IMod.IsCurrent()
+  nameWithType: IMod.IsCurrent()
+- uid: Modding.IMod.IsCurrent*
+  name: IsCurrent
+  href: api/Modding.IMod.html#Modding_IMod_IsCurrent_
+  commentId: Overload:Modding.IMod.IsCurrent
+  fullName: Modding.IMod.IsCurrent
+  nameWithType: IMod.IsCurrent
+- uid: Modding.IMod.Log(System.String)
+  name: Log(String)
+  href: api/Modding.IMod.html#Modding_IMod_Log_System_String_
+  commentId: M:Modding.IMod.Log(System.String)
+  fullName: Modding.IMod.Log(System.String)
+  nameWithType: IMod.Log(String)
+- uid: Modding.IMod.Log*
+  name: Log
+  href: api/Modding.IMod.html#Modding_IMod_Log_
+  commentId: Overload:Modding.IMod.Log
+  fullName: Modding.IMod.Log
+  nameWithType: IMod.Log
+- uid: Modding.IMod.LogDebug(System.String)
+  name: LogDebug(String)
+  href: api/Modding.IMod.html#Modding_IMod_LogDebug_System_String_
+  commentId: M:Modding.IMod.LogDebug(System.String)
+  fullName: Modding.IMod.LogDebug(System.String)
+  nameWithType: IMod.LogDebug(String)
+- uid: Modding.IMod.LogDebug*
+  name: LogDebug
+  href: api/Modding.IMod.html#Modding_IMod_LogDebug_
+  commentId: Overload:Modding.IMod.LogDebug
+  fullName: Modding.IMod.LogDebug
+  nameWithType: IMod.LogDebug
+- uid: Modding.IMod.LogError(System.String)
+  name: LogError(String)
+  href: api/Modding.IMod.html#Modding_IMod_LogError_System_String_
+  commentId: M:Modding.IMod.LogError(System.String)
+  fullName: Modding.IMod.LogError(System.String)
+  nameWithType: IMod.LogError(String)
+- uid: Modding.IMod.LogError*
+  name: LogError
+  href: api/Modding.IMod.html#Modding_IMod_LogError_
+  commentId: Overload:Modding.IMod.LogError
+  fullName: Modding.IMod.LogError
+  nameWithType: IMod.LogError
+- uid: Modding.IMod.LogFine(System.String)
+  name: LogFine(String)
+  href: api/Modding.IMod.html#Modding_IMod_LogFine_System_String_
+  commentId: M:Modding.IMod.LogFine(System.String)
+  fullName: Modding.IMod.LogFine(System.String)
+  nameWithType: IMod.LogFine(String)
+- uid: Modding.IMod.LogFine*
+  name: LogFine
+  href: api/Modding.IMod.html#Modding_IMod_LogFine_
+  commentId: Overload:Modding.IMod.LogFine
+  fullName: Modding.IMod.LogFine
+  nameWithType: IMod.LogFine
+- uid: Modding.IMod.LogWarn(System.String)
+  name: LogWarn(String)
+  href: api/Modding.IMod.html#Modding_IMod_LogWarn_System_String_
+  commentId: M:Modding.IMod.LogWarn(System.String)
+  fullName: Modding.IMod.LogWarn(System.String)
+  nameWithType: IMod.LogWarn(String)
+- uid: Modding.IMod.LogWarn*
+  name: LogWarn
+  href: api/Modding.IMod.html#Modding_IMod_LogWarn_
+  commentId: Overload:Modding.IMod.LogWarn
+  fullName: Modding.IMod.LogWarn
+  nameWithType: IMod.LogWarn
 - uid: Modding.IMod.Unload
   name: Unload()
   href: api/Modding.IMod.html#Modding_IMod_Unload
@@ -236,6 +338,47 @@ references:
   fullName.vb: Modding.IMod(Of T).Settings
   nameWithType: IMod<T>.Settings
   nameWithType.vb: IMod(Of T).Settings
+- uid: Modding.IMod`2
+  name: IMod<T, TG>
+  href: api/Modding.IMod-2.html
+  commentId: T:Modding.IMod`2
+  name.vb: IMod(Of T, TG)
+  fullName: Modding.IMod<T, TG>
+  fullName.vb: Modding.IMod(Of T, TG)
+  nameWithType: IMod<T, TG>
+  nameWithType.vb: IMod(Of T, TG)
+- uid: Modding.IMod`2.GlobalSettings
+  name: GlobalSettings
+  href: api/Modding.IMod-2.html#Modding_IMod_2_GlobalSettings
+  commentId: P:Modding.IMod`2.GlobalSettings
+  fullName: Modding.IMod<T, TG>.GlobalSettings
+  fullName.vb: Modding.IMod(Of T, TG).GlobalSettings
+  nameWithType: IMod<T, TG>.GlobalSettings
+  nameWithType.vb: IMod(Of T, TG).GlobalSettings
+- uid: Modding.IMod`2.GlobalSettings*
+  name: GlobalSettings
+  href: api/Modding.IMod-2.html#Modding_IMod_2_GlobalSettings_
+  commentId: Overload:Modding.IMod`2.GlobalSettings
+  fullName: Modding.IMod<T, TG>.GlobalSettings
+  fullName.vb: Modding.IMod(Of T, TG).GlobalSettings
+  nameWithType: IMod<T, TG>.GlobalSettings
+  nameWithType.vb: IMod(Of T, TG).GlobalSettings
+- uid: Modding.IMod`2.Settings
+  name: Settings
+  href: api/Modding.IMod-2.html#Modding_IMod_2_Settings
+  commentId: P:Modding.IMod`2.Settings
+  fullName: Modding.IMod<T, TG>.Settings
+  fullName.vb: Modding.IMod(Of T, TG).Settings
+  nameWithType: IMod<T, TG>.Settings
+  nameWithType.vb: IMod(Of T, TG).Settings
+- uid: Modding.IMod`2.Settings*
+  name: Settings
+  href: api/Modding.IMod-2.html#Modding_IMod_2_Settings_
+  commentId: Overload:Modding.IMod`2.Settings
+  fullName: Modding.IMod<T, TG>.Settings
+  fullName.vb: Modding.IMod(Of T, TG).Settings
+  nameWithType: IMod<T, TG>.Settings
+  nameWithType.vb: IMod(Of T, TG).Settings
 - uid: Modding.IModSettings
   name: IModSettings
   href: api/Modding.IModSettings.html
@@ -431,18 +574,6 @@ references:
   commentId: T:Modding.Logger
   fullName: Modding.Logger
   nameWithType: Logger
-- uid: Modding.Logger.#ctor(Modding.LogLevel,System.String)
-  name: Logger(LogLevel, String)
-  href: api/Modding.Logger.html#Modding_Logger__ctor_Modding_LogLevel_System_String_
-  commentId: M:Modding.Logger.#ctor(Modding.LogLevel,System.String)
-  fullName: Modding.Logger.Logger(Modding.LogLevel, System.String)
-  nameWithType: Logger.Logger(LogLevel, String)
-- uid: Modding.Logger.#ctor*
-  name: Logger
-  href: api/Modding.Logger.html#Modding_Logger__ctor_
-  commentId: Overload:Modding.Logger.#ctor
-  fullName: Modding.Logger.Logger
-  nameWithType: Logger.Logger
 - uid: Modding.Logger.Log(System.String)
   name: Log(String)
   href: api/Modding.Logger.html#Modding_Logger_Log_System_String_
@@ -587,18 +718,18 @@ references:
   commentId: Overload:Modding.Mod.Initialize
   fullName: Modding.Mod.Initialize
   nameWithType: Mod.Initialize
-- uid: Modding.Mod.Instance
-  name: Instance
-  href: api/Modding.Mod.html#Modding_Mod_Instance
-  commentId: P:Modding.Mod.Instance
-  fullName: Modding.Mod.Instance
-  nameWithType: Mod.Instance
-- uid: Modding.Mod.Instance*
-  name: Instance
-  href: api/Modding.Mod.html#Modding_Mod_Instance_
-  commentId: Overload:Modding.Mod.Instance
-  fullName: Modding.Mod.Instance
-  nameWithType: Mod.Instance
+- uid: Modding.Mod.IsCurrent
+  name: IsCurrent()
+  href: api/Modding.Mod.html#Modding_Mod_IsCurrent
+  commentId: M:Modding.Mod.IsCurrent
+  fullName: Modding.Mod.IsCurrent()
+  nameWithType: Mod.IsCurrent()
+- uid: Modding.Mod.IsCurrent*
+  name: IsCurrent
+  href: api/Modding.Mod.html#Modding_Mod_IsCurrent_
+  commentId: Overload:Modding.Mod.IsCurrent
+  fullName: Modding.Mod.IsCurrent
+  nameWithType: Mod.IsCurrent
 - uid: Modding.Mod.Log(System.String)
   name: Log(String)
   href: api/Modding.Mod.html#Modding_Mod_Log_System_String_
@@ -759,22 +890,6 @@ references:
   fullName.vb: Modding.Mod(Of TSaveSettings, TGlobalSettings).GlobalSettings
   nameWithType: Mod<TSaveSettings, TGlobalSettings>.GlobalSettings
   nameWithType.vb: Mod(Of TSaveSettings, TGlobalSettings).GlobalSettings
-- uid: Modding.Mod`2.Initialize
-  name: Initialize()
-  href: api/Modding.Mod-2.html#Modding_Mod_2_Initialize
-  commentId: M:Modding.Mod`2.Initialize
-  fullName: Modding.Mod<TSaveSettings, TGlobalSettings>.Initialize()
-  fullName.vb: Modding.Mod(Of TSaveSettings, TGlobalSettings).Initialize()
-  nameWithType: Mod<TSaveSettings, TGlobalSettings>.Initialize()
-  nameWithType.vb: Mod(Of TSaveSettings, TGlobalSettings).Initialize()
-- uid: Modding.Mod`2.Initialize*
-  name: Initialize
-  href: api/Modding.Mod-2.html#Modding_Mod_2_Initialize_
-  commentId: Overload:Modding.Mod`2.Initialize
-  fullName: Modding.Mod<TSaveSettings, TGlobalSettings>.Initialize
-  fullName.vb: Modding.Mod(Of TSaveSettings, TGlobalSettings).Initialize
-  nameWithType: Mod<TSaveSettings, TGlobalSettings>.Initialize
-  nameWithType.vb: Mod(Of TSaveSettings, TGlobalSettings).Initialize
 - uid: Modding.Mod`2.LoadGlobalSettings
   name: LoadGlobalSettings()
   href: api/Modding.Mod-2.html#Modding_Mod_2_LoadGlobalSettings
@@ -957,6 +1072,12 @@ references:
   commentId: Overload:Modding.ModHooks.Instance
   fullName: Modding.ModHooks.Instance
   nameWithType: ModHooks.Instance
+- uid: Modding.ModHooks.IsCurrent
+  name: IsCurrent
+  href: api/Modding.ModHooks.html#Modding_ModHooks_IsCurrent
+  commentId: F:Modding.ModHooks.IsCurrent
+  fullName: Modding.ModHooks.IsCurrent
+  nameWithType: ModHooks.IsCurrent
 - uid: Modding.ModHooks.LanguageGetHook
   name: LanguageGetHook
   href: api/Modding.ModHooks.html#Modding_ModHooks_LanguageGetHook
@@ -975,18 +1096,6 @@ references:
   commentId: F:Modding.ModHooks.LoadedModsWithVersions
   fullName: Modding.ModHooks.LoadedModsWithVersions
   nameWithType: ModHooks.LoadedModsWithVersions
-- uid: Modding.ModHooks.Logger
-  name: Logger
-  href: api/Modding.ModHooks.html#Modding_ModHooks_Logger
-  commentId: P:Modding.ModHooks.Logger
-  fullName: Modding.ModHooks.Logger
-  nameWithType: ModHooks.Logger
-- uid: Modding.ModHooks.Logger*
-  name: Logger
-  href: api/Modding.ModHooks.html#Modding_ModHooks_Logger_
-  commentId: Overload:Modding.ModHooks.Logger
-  fullName: Modding.ModHooks.Logger
-  nameWithType: ModHooks.Logger
 - uid: Modding.ModHooks.ModLog(System.String)
   name: ModLog(String)
   href: api/Modding.ModHooks.html#Modding_ModHooks_ModLog_System_String_
@@ -1155,48 +1264,6 @@ references:
   commentId: T:Modding.NewPlayerDataHandler
   fullName: Modding.NewPlayerDataHandler
   nameWithType: NewPlayerDataHandler
-- uid: Modding.NotifyDictionary`2
-  name: NotifyDictionary<TKey, TValue>
-  href: api/Modding.NotifyDictionary-2.html
-  commentId: T:Modding.NotifyDictionary`2
-  name.vb: NotifyDictionary(Of TKey, TValue)
-  fullName: Modding.NotifyDictionary<TKey, TValue>
-  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue)
-  nameWithType: NotifyDictionary<TKey, TValue>
-  nameWithType.vb: NotifyDictionary(Of TKey, TValue)
-- uid: Modding.NotifyDictionary`2.Add(`0,`1)
-  name: Add(TKey, TValue)
-  href: api/Modding.NotifyDictionary-2.html#Modding_NotifyDictionary_2_Add__0__1_
-  commentId: M:Modding.NotifyDictionary`2.Add(`0,`1)
-  fullName: Modding.NotifyDictionary<TKey, TValue>.Add(TKey, TValue)
-  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).Add(TKey, TValue)
-  nameWithType: NotifyDictionary<TKey, TValue>.Add(TKey, TValue)
-  nameWithType.vb: NotifyDictionary(Of TKey, TValue).Add(TKey, TValue)
-- uid: Modding.NotifyDictionary`2.Add*
-  name: Add
-  href: api/Modding.NotifyDictionary-2.html#Modding_NotifyDictionary_2_Add_
-  commentId: Overload:Modding.NotifyDictionary`2.Add
-  fullName: Modding.NotifyDictionary<TKey, TValue>.Add
-  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).Add
-  nameWithType: NotifyDictionary<TKey, TValue>.Add
-  nameWithType.vb: NotifyDictionary(Of TKey, TValue).Add
-- uid: Modding.NotifyDictionary`2.OnAddHandler
-  name: NotifyDictionary<TKey, TValue>.OnAddHandler
-  href: api/Modding.NotifyDictionary-2.OnAddHandler.html
-  commentId: T:Modding.NotifyDictionary`2.OnAddHandler
-  name.vb: NotifyDictionary(Of TKey, TValue).OnAddHandler
-  fullName: Modding.NotifyDictionary<TKey, TValue>.OnAddHandler
-  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).OnAddHandler
-  nameWithType: NotifyDictionary<TKey, TValue>.OnAddHandler
-  nameWithType.vb: NotifyDictionary(Of TKey, TValue).OnAddHandler
-- uid: Modding.NotifyDictionary`2.OnAddHook
-  name: OnAddHook
-  href: api/Modding.NotifyDictionary-2.html#Modding_NotifyDictionary_2_OnAddHook
-  commentId: E:Modding.NotifyDictionary`2.OnAddHook
-  fullName: Modding.NotifyDictionary<TKey, TValue>.OnAddHook
-  fullName.vb: Modding.NotifyDictionary(Of TKey, TValue).OnAddHook
-  nameWithType: NotifyDictionary<TKey, TValue>.OnAddHook
-  nameWithType.vb: NotifyDictionary(Of TKey, TValue).OnAddHook
 - uid: Modding.SavegameLoadHandler
   name: SavegameLoadHandler
   href: api/Modding.SavegameLoadHandler.html

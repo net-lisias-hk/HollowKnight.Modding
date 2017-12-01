@@ -126,7 +126,7 @@
     <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod__ctor.md&amp;value=---%0Auid%3A%20Modding.Mod.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L28">View Source</a>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L24">View Source</a>
   </span>
   <a id="Modding_Mod__ctor_" data-uid="Modding.Mod.#ctor*"></a>
   <h4 id="Modding_Mod__ctor" data-uid="Modding.Mod.#ctor">Mod()</h4>
@@ -144,7 +144,7 @@
     <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod_Name.md&amp;value=---%0Auid%3A%20Modding.Mod.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L23">View Source</a>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L19">View Source</a>
   </span>
   <h4 id="Modding_Mod_Name" data-uid="Modding.Mod.Name">Name</h4>
   <div class="markdown level1 summary"><p>The Mods Name</p>
@@ -165,39 +165,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod_Instance.md&amp;value=---%0Auid%3A%20Modding.Mod.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L18">View Source</a>
-  </span>
-  <a id="Modding_Mod_Instance_" data-uid="Modding.Mod.Instance*"></a>
-  <h4 id="Modding_Mod_Instance" data-uid="Modding.Mod.Instance">Instance</h4>
-  <div class="markdown level1 summary"><p>The Current Mod&apos;s Instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Mod Instance { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Modding.Mod.html">Mod</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -254,10 +221,42 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod_IsCurrent.md&amp;value=---%0Auid%3A%20Modding.Mod.IsCurrent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L94">View Source</a>
+  </span>
+  <a id="Modding_Mod_IsCurrent_" data-uid="Modding.Mod.IsCurrent*"></a>
+  <h4 id="Modding_Mod_IsCurrent" data-uid="Modding.Mod.IsCurrent">IsCurrent()</h4>
+  <div class="markdown level1 summary"><p>Denotes if the running version is the current version.  Set this with <a class="xref" href="Modding.GithubVersionHelper.html">GithubVersionHelper</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsCurrent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>If the version is current or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod_Log_System_String_.md&amp;value=---%0Auid%3A%20Modding.Mod.Log(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L50">View Source</a>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L48">View Source</a>
   </span>
   <a id="Modding_Mod_Log_" data-uid="Modding.Mod.Log*"></a>
   <h4 id="Modding_Mod_Log_System_String_" data-uid="Modding.Mod.Log(System.String)">Log(String)</h4>
@@ -291,7 +290,7 @@
     <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod_LogDebug_System_String_.md&amp;value=---%0Auid%3A%20Modding.Mod.LogDebug(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L44">View Source</a>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L41">View Source</a>
   </span>
   <a id="Modding_Mod_LogDebug_" data-uid="Modding.Mod.LogDebug*"></a>
   <h4 id="Modding_Mod_LogDebug_System_String_" data-uid="Modding.Mod.LogDebug(System.String)">LogDebug(String)</h4>
@@ -359,7 +358,7 @@
     <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod_LogFine_System_String_.md&amp;value=---%0Auid%3A%20Modding.Mod.LogFine(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L38">View Source</a>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L34">View Source</a>
   </span>
   <a id="Modding_Mod_LogFine_" data-uid="Modding.Mod.LogFine*"></a>
   <h4 id="Modding_Mod_LogFine_System_String_" data-uid="Modding.Mod.LogFine(System.String)">LogFine(String)</h4>
@@ -393,7 +392,7 @@
     <a href="https://github.com/seanpr96/HollowKnight.Modding/new/master/apiSpec/new?filename=Modding_Mod_LogWarn_System_String_.md&amp;value=---%0Auid%3A%20Modding.Mod.LogWarn(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L56">View Source</a>
+    <a href="https://github.com/seanpr96/HollowKnight.Modding/blob/master/Assembly-CSharp/Mod.cs/#L55">View Source</a>
   </span>
   <a id="Modding_Mod_LogWarn_" data-uid="Modding.Mod.LogWarn*"></a>
   <h4 id="Modding_Mod_LogWarn_System_String_" data-uid="Modding.Mod.LogWarn(System.String)">LogWarn(String)</h4>

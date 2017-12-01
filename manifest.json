@@ -269,6 +269,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Modding.GithubVersionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.GithubVersionHelper.html",
+          "hash": "npNdecYij13S+140c70EHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Modding.HeroUpdateHandler.yml",
       "output": {
         ".html": {
@@ -297,7 +309,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.IMod-1.html",
-          "hash": "VN3F6ZJWhBDPCg9KSsXWOg=="
+          "hash": "VV9kb1qnkORAlmfhsRRUnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modding.IMod-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modding.IMod-2.html",
+          "hash": "K+5kUTmXY0UJv3qQuNVNrg=="
         }
       },
       "is_incremental": false,
@@ -309,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.IMod.html",
-          "hash": "Hda6+LE3dWgrONx02BooTA=="
+          "hash": "JVGg4AjHw3mnt5cgqEQ+0A=="
         }
       },
       "is_incremental": false,
@@ -357,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Logger.html",
-          "hash": "O6L0Dm9OPUVwBbTQfp/sAg=="
+          "hash": "qEAYUjnNxXH4Cfyn5ALk8Q=="
         }
       },
       "is_incremental": false,
@@ -369,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Mod-1.html",
-          "hash": "TnT/jloYWk6lEyeb3Q56kQ=="
+          "hash": "W4G8JBjLpuhy2dohngmRmA=="
         }
       },
       "is_incremental": false,
@@ -381,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Mod-2.html",
-          "hash": "ArM0zBAmi6oA/OtOhISfhA=="
+          "hash": "HcaHxmpv9XSt0h/MAkMDEg=="
         }
       },
       "is_incremental": false,
@@ -393,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.Mod.html",
-          "hash": "7biwNmpXBK/MTJgBOY33yA=="
+          "hash": "vIgAW6pKu0gUVHlT/GzalA=="
         }
       },
       "is_incremental": false,
@@ -417,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.ModHooks.html",
-          "hash": "zgpgKbnxLMU5iVwiH4Vdaw=="
+          "hash": "ejAD9wq3f3eQTISfL9rdEQ=="
         }
       },
       "is_incremental": false,
@@ -478,30 +502,6 @@
         ".html": {
           "relative_path": "api/Modding.NewPlayerDataHandler.html",
           "hash": "gPb75Ax7CrQaIVTCwd+/1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Modding.NotifyDictionary-2.OnAddHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Modding.NotifyDictionary-2.OnAddHandler.html",
-          "hash": "LnBm3qbe1IbltBwzXnVsaQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Modding.NotifyDictionary-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Modding.NotifyDictionary-2.html",
-          "hash": "L6n0eGyBrOOYuwaf4tAHHA=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Modding.html",
-          "hash": "Rj5vRxjHvdL8a8sfvkEeRQ=="
+          "hash": "jhzEoiXgAXVbIj3bhaJD5A=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "g2qNcnwNKACJQiSaZI+q8A=="
+          "hash": "Pm/5/qSxXqUNm43XE2shlQ=="
         }
       },
       "is_incremental": false,
@@ -796,11 +796,11 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         }
