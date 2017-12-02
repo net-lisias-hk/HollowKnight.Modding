@@ -199,6 +199,102 @@ references:
   commentId: F:Modding.HookInfoAttribute.HookLocation
   fullName: Modding.HookInfoAttribute.HookLocation
   nameWithType: HookInfoAttribute.HookLocation
+- uid: Modding.ILogger
+  name: ILogger
+  href: api/Modding.ILogger.html
+  commentId: T:Modding.ILogger
+  fullName: Modding.ILogger
+  nameWithType: ILogger
+- uid: Modding.ILogger.Log(System.Object)
+  name: Log(Object)
+  href: api/Modding.ILogger.html#Modding_ILogger_Log_System_Object_
+  commentId: M:Modding.ILogger.Log(System.Object)
+  fullName: Modding.ILogger.Log(System.Object)
+  nameWithType: ILogger.Log(Object)
+- uid: Modding.ILogger.Log(System.String)
+  name: Log(String)
+  href: api/Modding.ILogger.html#Modding_ILogger_Log_System_String_
+  commentId: M:Modding.ILogger.Log(System.String)
+  fullName: Modding.ILogger.Log(System.String)
+  nameWithType: ILogger.Log(String)
+- uid: Modding.ILogger.Log*
+  name: Log
+  href: api/Modding.ILogger.html#Modding_ILogger_Log_
+  commentId: Overload:Modding.ILogger.Log
+  fullName: Modding.ILogger.Log
+  nameWithType: ILogger.Log
+- uid: Modding.ILogger.LogDebug(System.Object)
+  name: LogDebug(Object)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogDebug_System_Object_
+  commentId: M:Modding.ILogger.LogDebug(System.Object)
+  fullName: Modding.ILogger.LogDebug(System.Object)
+  nameWithType: ILogger.LogDebug(Object)
+- uid: Modding.ILogger.LogDebug(System.String)
+  name: LogDebug(String)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogDebug_System_String_
+  commentId: M:Modding.ILogger.LogDebug(System.String)
+  fullName: Modding.ILogger.LogDebug(System.String)
+  nameWithType: ILogger.LogDebug(String)
+- uid: Modding.ILogger.LogDebug*
+  name: LogDebug
+  href: api/Modding.ILogger.html#Modding_ILogger_LogDebug_
+  commentId: Overload:Modding.ILogger.LogDebug
+  fullName: Modding.ILogger.LogDebug
+  nameWithType: ILogger.LogDebug
+- uid: Modding.ILogger.LogError(System.Object)
+  name: LogError(Object)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogError_System_Object_
+  commentId: M:Modding.ILogger.LogError(System.Object)
+  fullName: Modding.ILogger.LogError(System.Object)
+  nameWithType: ILogger.LogError(Object)
+- uid: Modding.ILogger.LogError(System.String)
+  name: LogError(String)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogError_System_String_
+  commentId: M:Modding.ILogger.LogError(System.String)
+  fullName: Modding.ILogger.LogError(System.String)
+  nameWithType: ILogger.LogError(String)
+- uid: Modding.ILogger.LogError*
+  name: LogError
+  href: api/Modding.ILogger.html#Modding_ILogger_LogError_
+  commentId: Overload:Modding.ILogger.LogError
+  fullName: Modding.ILogger.LogError
+  nameWithType: ILogger.LogError
+- uid: Modding.ILogger.LogFine(System.Object)
+  name: LogFine(Object)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogFine_System_Object_
+  commentId: M:Modding.ILogger.LogFine(System.Object)
+  fullName: Modding.ILogger.LogFine(System.Object)
+  nameWithType: ILogger.LogFine(Object)
+- uid: Modding.ILogger.LogFine(System.String)
+  name: LogFine(String)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogFine_System_String_
+  commentId: M:Modding.ILogger.LogFine(System.String)
+  fullName: Modding.ILogger.LogFine(System.String)
+  nameWithType: ILogger.LogFine(String)
+- uid: Modding.ILogger.LogFine*
+  name: LogFine
+  href: api/Modding.ILogger.html#Modding_ILogger_LogFine_
+  commentId: Overload:Modding.ILogger.LogFine
+  fullName: Modding.ILogger.LogFine
+  nameWithType: ILogger.LogFine
+- uid: Modding.ILogger.LogWarn(System.Object)
+  name: LogWarn(Object)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogWarn_System_Object_
+  commentId: M:Modding.ILogger.LogWarn(System.Object)
+  fullName: Modding.ILogger.LogWarn(System.Object)
+  nameWithType: ILogger.LogWarn(Object)
+- uid: Modding.ILogger.LogWarn(System.String)
+  name: LogWarn(String)
+  href: api/Modding.ILogger.html#Modding_ILogger_LogWarn_System_String_
+  commentId: M:Modding.ILogger.LogWarn(System.String)
+  fullName: Modding.ILogger.LogWarn(System.String)
+  nameWithType: ILogger.LogWarn(String)
+- uid: Modding.ILogger.LogWarn*
+  name: LogWarn
+  href: api/Modding.ILogger.html#Modding_ILogger_LogWarn_
+  commentId: Overload:Modding.ILogger.LogWarn
+  fullName: Modding.ILogger.LogWarn
+  nameWithType: ILogger.LogWarn
 - uid: Modding.IMod
   name: IMod
   href: api/Modding.IMod.html
@@ -241,66 +337,6 @@ references:
   commentId: Overload:Modding.IMod.IsCurrent
   fullName: Modding.IMod.IsCurrent
   nameWithType: IMod.IsCurrent
-- uid: Modding.IMod.Log(System.String)
-  name: Log(String)
-  href: api/Modding.IMod.html#Modding_IMod_Log_System_String_
-  commentId: M:Modding.IMod.Log(System.String)
-  fullName: Modding.IMod.Log(System.String)
-  nameWithType: IMod.Log(String)
-- uid: Modding.IMod.Log*
-  name: Log
-  href: api/Modding.IMod.html#Modding_IMod_Log_
-  commentId: Overload:Modding.IMod.Log
-  fullName: Modding.IMod.Log
-  nameWithType: IMod.Log
-- uid: Modding.IMod.LogDebug(System.String)
-  name: LogDebug(String)
-  href: api/Modding.IMod.html#Modding_IMod_LogDebug_System_String_
-  commentId: M:Modding.IMod.LogDebug(System.String)
-  fullName: Modding.IMod.LogDebug(System.String)
-  nameWithType: IMod.LogDebug(String)
-- uid: Modding.IMod.LogDebug*
-  name: LogDebug
-  href: api/Modding.IMod.html#Modding_IMod_LogDebug_
-  commentId: Overload:Modding.IMod.LogDebug
-  fullName: Modding.IMod.LogDebug
-  nameWithType: IMod.LogDebug
-- uid: Modding.IMod.LogError(System.String)
-  name: LogError(String)
-  href: api/Modding.IMod.html#Modding_IMod_LogError_System_String_
-  commentId: M:Modding.IMod.LogError(System.String)
-  fullName: Modding.IMod.LogError(System.String)
-  nameWithType: IMod.LogError(String)
-- uid: Modding.IMod.LogError*
-  name: LogError
-  href: api/Modding.IMod.html#Modding_IMod_LogError_
-  commentId: Overload:Modding.IMod.LogError
-  fullName: Modding.IMod.LogError
-  nameWithType: IMod.LogError
-- uid: Modding.IMod.LogFine(System.String)
-  name: LogFine(String)
-  href: api/Modding.IMod.html#Modding_IMod_LogFine_System_String_
-  commentId: M:Modding.IMod.LogFine(System.String)
-  fullName: Modding.IMod.LogFine(System.String)
-  nameWithType: IMod.LogFine(String)
-- uid: Modding.IMod.LogFine*
-  name: LogFine
-  href: api/Modding.IMod.html#Modding_IMod_LogFine_
-  commentId: Overload:Modding.IMod.LogFine
-  fullName: Modding.IMod.LogFine
-  nameWithType: IMod.LogFine
-- uid: Modding.IMod.LogWarn(System.String)
-  name: LogWarn(String)
-  href: api/Modding.IMod.html#Modding_IMod_LogWarn_System_String_
-  commentId: M:Modding.IMod.LogWarn(System.String)
-  fullName: Modding.IMod.LogWarn(System.String)
-  nameWithType: IMod.LogWarn(String)
-- uid: Modding.IMod.LogWarn*
-  name: LogWarn
-  href: api/Modding.IMod.html#Modding_IMod_LogWarn_
-  commentId: Overload:Modding.IMod.LogWarn
-  fullName: Modding.IMod.LogWarn
-  nameWithType: IMod.LogWarn
 - uid: Modding.IMod.Unload
   name: Unload()
   href: api/Modding.IMod.html#Modding_IMod_Unload
@@ -568,24 +604,156 @@ references:
   commentId: T:Modding.LanguageGetHandler
   fullName: Modding.LanguageGetHandler
   nameWithType: LanguageGetHandler
+- uid: Modding.Loggable
+  name: Loggable
+  href: api/Modding.Loggable.html
+  commentId: T:Modding.Loggable
+  fullName: Modding.Loggable
+  nameWithType: Loggable
+- uid: Modding.Loggable.#ctor
+  name: Loggable()
+  href: api/Modding.Loggable.html#Modding_Loggable__ctor
+  commentId: M:Modding.Loggable.#ctor
+  fullName: Modding.Loggable.Loggable()
+  nameWithType: Loggable.Loggable()
+- uid: Modding.Loggable.#ctor*
+  name: Loggable
+  href: api/Modding.Loggable.html#Modding_Loggable__ctor_
+  commentId: Overload:Modding.Loggable.#ctor
+  fullName: Modding.Loggable.Loggable
+  nameWithType: Loggable.Loggable
+- uid: Modding.Loggable.Log(System.Object)
+  name: Log(Object)
+  href: api/Modding.Loggable.html#Modding_Loggable_Log_System_Object_
+  commentId: M:Modding.Loggable.Log(System.Object)
+  fullName: Modding.Loggable.Log(System.Object)
+  nameWithType: Loggable.Log(Object)
+- uid: Modding.Loggable.Log(System.String)
+  name: Log(String)
+  href: api/Modding.Loggable.html#Modding_Loggable_Log_System_String_
+  commentId: M:Modding.Loggable.Log(System.String)
+  fullName: Modding.Loggable.Log(System.String)
+  nameWithType: Loggable.Log(String)
+- uid: Modding.Loggable.Log*
+  name: Log
+  href: api/Modding.Loggable.html#Modding_Loggable_Log_
+  commentId: Overload:Modding.Loggable.Log
+  fullName: Modding.Loggable.Log
+  nameWithType: Loggable.Log
+- uid: Modding.Loggable.LogDebug(System.Object)
+  name: LogDebug(Object)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogDebug_System_Object_
+  commentId: M:Modding.Loggable.LogDebug(System.Object)
+  fullName: Modding.Loggable.LogDebug(System.Object)
+  nameWithType: Loggable.LogDebug(Object)
+- uid: Modding.Loggable.LogDebug(System.String)
+  name: LogDebug(String)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogDebug_System_String_
+  commentId: M:Modding.Loggable.LogDebug(System.String)
+  fullName: Modding.Loggable.LogDebug(System.String)
+  nameWithType: Loggable.LogDebug(String)
+- uid: Modding.Loggable.LogDebug*
+  name: LogDebug
+  href: api/Modding.Loggable.html#Modding_Loggable_LogDebug_
+  commentId: Overload:Modding.Loggable.LogDebug
+  fullName: Modding.Loggable.LogDebug
+  nameWithType: Loggable.LogDebug
+- uid: Modding.Loggable.LogError(System.Object)
+  name: LogError(Object)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogError_System_Object_
+  commentId: M:Modding.Loggable.LogError(System.Object)
+  fullName: Modding.Loggable.LogError(System.Object)
+  nameWithType: Loggable.LogError(Object)
+- uid: Modding.Loggable.LogError(System.String)
+  name: LogError(String)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogError_System_String_
+  commentId: M:Modding.Loggable.LogError(System.String)
+  fullName: Modding.Loggable.LogError(System.String)
+  nameWithType: Loggable.LogError(String)
+- uid: Modding.Loggable.LogError*
+  name: LogError
+  href: api/Modding.Loggable.html#Modding_Loggable_LogError_
+  commentId: Overload:Modding.Loggable.LogError
+  fullName: Modding.Loggable.LogError
+  nameWithType: Loggable.LogError
+- uid: Modding.Loggable.LogFine(System.Object)
+  name: LogFine(Object)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogFine_System_Object_
+  commentId: M:Modding.Loggable.LogFine(System.Object)
+  fullName: Modding.Loggable.LogFine(System.Object)
+  nameWithType: Loggable.LogFine(Object)
+- uid: Modding.Loggable.LogFine(System.String)
+  name: LogFine(String)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogFine_System_String_
+  commentId: M:Modding.Loggable.LogFine(System.String)
+  fullName: Modding.Loggable.LogFine(System.String)
+  nameWithType: Loggable.LogFine(String)
+- uid: Modding.Loggable.LogFine*
+  name: LogFine
+  href: api/Modding.Loggable.html#Modding_Loggable_LogFine_
+  commentId: Overload:Modding.Loggable.LogFine
+  fullName: Modding.Loggable.LogFine
+  nameWithType: Loggable.LogFine
+- uid: Modding.Loggable.LogWarn(System.Object)
+  name: LogWarn(Object)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogWarn_System_Object_
+  commentId: M:Modding.Loggable.LogWarn(System.Object)
+  fullName: Modding.Loggable.LogWarn(System.Object)
+  nameWithType: Loggable.LogWarn(Object)
+- uid: Modding.Loggable.LogWarn(System.String)
+  name: LogWarn(String)
+  href: api/Modding.Loggable.html#Modding_Loggable_LogWarn_System_String_
+  commentId: M:Modding.Loggable.LogWarn(System.String)
+  fullName: Modding.Loggable.LogWarn(System.String)
+  nameWithType: Loggable.LogWarn(String)
+- uid: Modding.Loggable.LogWarn*
+  name: LogWarn
+  href: api/Modding.Loggable.html#Modding_Loggable_LogWarn_
+  commentId: Overload:Modding.Loggable.LogWarn
+  fullName: Modding.Loggable.LogWarn
+  nameWithType: Loggable.LogWarn
 - uid: Modding.Logger
   name: Logger
   href: api/Modding.Logger.html
   commentId: T:Modding.Logger
   fullName: Modding.Logger
   nameWithType: Logger
+- uid: Modding.Logger.Log(System.Object)
+  name: Log(Object)
+  href: api/Modding.Logger.html#Modding_Logger_Log_System_Object_
+  commentId: M:Modding.Logger.Log(System.Object)
+  fullName: Modding.Logger.Log(System.Object)
+  nameWithType: Logger.Log(Object)
+- uid: Modding.Logger.Log(System.Object,Modding.LogLevel)
+  name: Log(Object, LogLevel)
+  href: api/Modding.Logger.html#Modding_Logger_Log_System_Object_Modding_LogLevel_
+  commentId: M:Modding.Logger.Log(System.Object,Modding.LogLevel)
+  fullName: Modding.Logger.Log(System.Object, Modding.LogLevel)
+  nameWithType: Logger.Log(Object, LogLevel)
 - uid: Modding.Logger.Log(System.String)
   name: Log(String)
   href: api/Modding.Logger.html#Modding_Logger_Log_System_String_
   commentId: M:Modding.Logger.Log(System.String)
   fullName: Modding.Logger.Log(System.String)
   nameWithType: Logger.Log(String)
+- uid: Modding.Logger.Log(System.String,Modding.LogLevel)
+  name: Log(String, LogLevel)
+  href: api/Modding.Logger.html#Modding_Logger_Log_System_String_Modding_LogLevel_
+  commentId: M:Modding.Logger.Log(System.String,Modding.LogLevel)
+  fullName: Modding.Logger.Log(System.String, Modding.LogLevel)
+  nameWithType: Logger.Log(String, LogLevel)
 - uid: Modding.Logger.Log*
   name: Log
   href: api/Modding.Logger.html#Modding_Logger_Log_
   commentId: Overload:Modding.Logger.Log
   fullName: Modding.Logger.Log
   nameWithType: Logger.Log
+- uid: Modding.Logger.LogDebug(System.Object)
+  name: LogDebug(Object)
+  href: api/Modding.Logger.html#Modding_Logger_LogDebug_System_Object_
+  commentId: M:Modding.Logger.LogDebug(System.Object)
+  fullName: Modding.Logger.LogDebug(System.Object)
+  nameWithType: Logger.LogDebug(Object)
 - uid: Modding.Logger.LogDebug(System.String)
   name: LogDebug(String)
   href: api/Modding.Logger.html#Modding_Logger_LogDebug_System_String_
@@ -598,6 +766,12 @@ references:
   commentId: Overload:Modding.Logger.LogDebug
   fullName: Modding.Logger.LogDebug
   nameWithType: Logger.LogDebug
+- uid: Modding.Logger.LogError(System.Object)
+  name: LogError(Object)
+  href: api/Modding.Logger.html#Modding_Logger_LogError_System_Object_
+  commentId: M:Modding.Logger.LogError(System.Object)
+  fullName: Modding.Logger.LogError(System.Object)
+  nameWithType: Logger.LogError(Object)
 - uid: Modding.Logger.LogError(System.String)
   name: LogError(String)
   href: api/Modding.Logger.html#Modding_Logger_LogError_System_String_
@@ -610,6 +784,12 @@ references:
   commentId: Overload:Modding.Logger.LogError
   fullName: Modding.Logger.LogError
   nameWithType: Logger.LogError
+- uid: Modding.Logger.LogFine(System.Object)
+  name: LogFine(Object)
+  href: api/Modding.Logger.html#Modding_Logger_LogFine_System_Object_
+  commentId: M:Modding.Logger.LogFine(System.Object)
+  fullName: Modding.Logger.LogFine(System.Object)
+  nameWithType: Logger.LogFine(Object)
 - uid: Modding.Logger.LogFine(System.String)
   name: LogFine(String)
   href: api/Modding.Logger.html#Modding_Logger_LogFine_System_String_
@@ -622,6 +802,12 @@ references:
   commentId: Overload:Modding.Logger.LogFine
   fullName: Modding.Logger.LogFine
   nameWithType: Logger.LogFine
+- uid: Modding.Logger.LogWarn(System.Object)
+  name: LogWarn(Object)
+  href: api/Modding.Logger.html#Modding_Logger_LogWarn_System_Object_
+  commentId: M:Modding.Logger.LogWarn(System.Object)
+  fullName: Modding.Logger.LogWarn(System.Object)
+  nameWithType: Logger.LogWarn(Object)
 - uid: Modding.Logger.LogWarn(System.String)
   name: LogWarn(String)
   href: api/Modding.Logger.html#Modding_Logger_LogWarn_System_String_
@@ -730,66 +916,6 @@ references:
   commentId: Overload:Modding.Mod.IsCurrent
   fullName: Modding.Mod.IsCurrent
   nameWithType: Mod.IsCurrent
-- uid: Modding.Mod.Log(System.String)
-  name: Log(String)
-  href: api/Modding.Mod.html#Modding_Mod_Log_System_String_
-  commentId: M:Modding.Mod.Log(System.String)
-  fullName: Modding.Mod.Log(System.String)
-  nameWithType: Mod.Log(String)
-- uid: Modding.Mod.Log*
-  name: Log
-  href: api/Modding.Mod.html#Modding_Mod_Log_
-  commentId: Overload:Modding.Mod.Log
-  fullName: Modding.Mod.Log
-  nameWithType: Mod.Log
-- uid: Modding.Mod.LogDebug(System.String)
-  name: LogDebug(String)
-  href: api/Modding.Mod.html#Modding_Mod_LogDebug_System_String_
-  commentId: M:Modding.Mod.LogDebug(System.String)
-  fullName: Modding.Mod.LogDebug(System.String)
-  nameWithType: Mod.LogDebug(String)
-- uid: Modding.Mod.LogDebug*
-  name: LogDebug
-  href: api/Modding.Mod.html#Modding_Mod_LogDebug_
-  commentId: Overload:Modding.Mod.LogDebug
-  fullName: Modding.Mod.LogDebug
-  nameWithType: Mod.LogDebug
-- uid: Modding.Mod.LogError(System.String)
-  name: LogError(String)
-  href: api/Modding.Mod.html#Modding_Mod_LogError_System_String_
-  commentId: M:Modding.Mod.LogError(System.String)
-  fullName: Modding.Mod.LogError(System.String)
-  nameWithType: Mod.LogError(String)
-- uid: Modding.Mod.LogError*
-  name: LogError
-  href: api/Modding.Mod.html#Modding_Mod_LogError_
-  commentId: Overload:Modding.Mod.LogError
-  fullName: Modding.Mod.LogError
-  nameWithType: Mod.LogError
-- uid: Modding.Mod.LogFine(System.String)
-  name: LogFine(String)
-  href: api/Modding.Mod.html#Modding_Mod_LogFine_System_String_
-  commentId: M:Modding.Mod.LogFine(System.String)
-  fullName: Modding.Mod.LogFine(System.String)
-  nameWithType: Mod.LogFine(String)
-- uid: Modding.Mod.LogFine*
-  name: LogFine
-  href: api/Modding.Mod.html#Modding_Mod_LogFine_
-  commentId: Overload:Modding.Mod.LogFine
-  fullName: Modding.Mod.LogFine
-  nameWithType: Mod.LogFine
-- uid: Modding.Mod.LogWarn(System.String)
-  name: LogWarn(String)
-  href: api/Modding.Mod.html#Modding_Mod_LogWarn_System_String_
-  commentId: M:Modding.Mod.LogWarn(System.String)
-  fullName: Modding.Mod.LogWarn(System.String)
-  nameWithType: Mod.LogWarn(String)
-- uid: Modding.Mod.LogWarn*
-  name: LogWarn
-  href: api/Modding.Mod.html#Modding_Mod_LogWarn_
-  commentId: Overload:Modding.Mod.LogWarn
-  fullName: Modding.Mod.LogWarn
-  nameWithType: Mod.LogWarn
 - uid: Modding.Mod.Name
   name: Name
   href: api/Modding.Mod.html#Modding_Mod_Name
