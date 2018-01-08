@@ -64,14 +64,25 @@
 
 <p>Hollow Knight Modding generally requires changing the game&#39;s code using an assembly editor such as dnSpy.   While this works, it means that each time the game releases a new version, all mods had to be recoded by hand.  The Hollow Knight API aims to remove this requirement by exposing hooks to perform most needed operations without having to rewrite decompiled code.</p>
 <p>We use the MonoMod patcher to greatly reduce the effort in patching the assembly.  Go check it out! <a href="https://github.com/0x0ade/MonoMod">https://github.com/0x0ade/MonoMod</a></p>
-<h1 id="building-the-api">Building The API</h1>
+<h1 id="building-the-api-for-windows">Building The API for Windows</h1>
 <p>Building the API is fairly straightforward.</p>
 <ol>
 <li>Clone this!</li>
-<li>Go to <code>%HollowKnightGameInstallPath%/hollow_knight_Data/Managed/</code> and copy it&#39;s contents to the <code>Vanilla</code> folder in this repository. </li>
-<li>Open the solution in Visual Studio</li>
-<li>Build.  The patched assembly should be in <code>RepoPath/OutputFinal/hollow_knight_Data/Managed/</code> (There is also a zip file in <code>RepoPath/ModdingAPI.zip</code> ready to upload to Google Drive)</li>
+<li>Go to <code>%HollowKnightGameInstallPath%/hollow_knight_Data/Managed/</code> and copy it&#39;s contents to the <code>Vanilla</code> folder in this repository. (Create the Vanilla folder if it does not exist.)</li>
+<li>Open the solution in Visual Studio 2017 (May work in other versions, only tested on VS2017 Community Edition)</li>
+<li>Set the build configuration to Debug.</li>
+<li>The patched assembly should be in <code>RepoPath/OutputFinal/hollow_knight_Data/Managed/</code> (There is also a zip file in <code>RepoPath/ModdingAPI.zip</code> ready to upload to Google Drive)</li>
 <li>Copy Assembly-CSharp.* to <code>%HollowKnightGameInstallPath%/hollow_knight_Data/Managed/</code></li>
+</ol>
+<h1 id="building-the-api-for-mac">Building The API for Mac!</h1>
+<p>Building the API is fairly straightforward. (Note that we&#39;re still building this in Windows, just using the Mac files for the game.)</p>
+<ol>
+<li>Clone this!</li>
+<li>Go to <code>%HollowKnightGameInstallPath%/Contents/Resources/Data/Managed/</code> and copy it&#39;s contents to the <code>VanillaMac</code> folder in this repository. (Create the VanillaMac folder if it does not exist.)</li>
+<li>Open the solution in Visual Studio 2017 (May work in other versions, only tested on VS2017 Community Edition)</li>
+<li>Set the build configuration to DebugMac.</li>
+<li>Build.  The patched assembly should be in <code>RepoPath/OutputFinalMac/hollow_knight.app/Contents/Resources/Data/Managed/</code> (There is also a zip file in <code>RepoPath/ModdingAPIMac.zip</code> ready to upload to Google Drive)</li>
+<li>Copy Assembly-CSharp.* to <code>%HollowKnightGameInstallPath%/Contents/Resources/Data/Managed/</code></li>
 </ol>
 </article>
           </div>
